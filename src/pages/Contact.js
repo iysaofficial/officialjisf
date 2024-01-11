@@ -7,7 +7,7 @@ import axios from 'axios';
 import Notiflix from 'notiflix';
 
 const Contact = () => {
-  useDocTitle('JISF Official');
+  useDocTitle('JISF - Official');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
@@ -96,7 +96,7 @@ const Contact = () => {
             <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
               <div className="flex">
                 <h1 className="font-bold text-center lg:text-left text-blue-900 uppercase text-4xl">
-                  Send us a message
+                  Contact
                 </h1>
               </div>
               <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
@@ -141,21 +141,6 @@ const Contact = () => {
                   {errors && (
                     <p className="text-red-500 text-sm">
                       {errors.email}
-                    </p>
-                  )}
-                </div>
-
-                <div>
-                  <input
-                    name="phone_number"
-                    className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-                    type="number"
-                    placeholder="Phone*"
-                    required
-                  />
-                  {errors && (
-                    <p className="text-red-500 text-sm">
-                      {errors.phone_number}
                     </p>
                   )}
                 </div>
