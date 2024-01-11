@@ -1,18 +1,19 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
-import "aos/dist/aos.css";
+import 'aos/dist/aos.css';
 import './index.css';
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
 } from 'react-router-dom';
 // All pages
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import DemoProduct from './pages/DemoProduct';
+import Faq from './pages/Faq';
 
-import {useDocTitle} from './components/CustomHook';
+import { useDocTitle } from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -23,14 +24,14 @@ function App() {
         duration: 1000,
         easing: 'ease-out-cubic',
       });
-    }
+    };
 
     window.addEventListener('load', () => {
       aos_init();
     });
   }, []);
 
-  useDocTitle("JISF Official");
+  useDocTitle('JISF - Official');
 
   return (
     <>
@@ -39,13 +40,13 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/get-demo" element={<DemoProduct />} /> 
+            <Route path="/get-demo" element={<DemoProduct />} />
+            <Route path="/Faq" element={<Faq />} />
           </Routes>
         </ScrollToTop>
       </Router>
     </>
   );
 }
-
 
 export default App;
