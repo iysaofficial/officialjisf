@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import NavBar from '../components/Navbar/NavBar';
-import Footer from '../components/Footer';
+import React, { useState } from "react";
+import NavBar from "../components/Navbar/NavBar";
+import Footer from "../components/Footer";
 
 const Faq = () => {
   return (
@@ -30,8 +30,7 @@ const Faq = () => {
                 aria-controls="accordion-collapse-body-1"
               >
                 <span>
-                  Minsa, when will we get our LoA and Invoice? Where
-                  was it sent?
+                  Minsa, when will we get our LoA? Where will it be sent?
                 </span>
                 <svg
                   data-accordion-icon
@@ -58,11 +57,10 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  The committee will send LoA and Invoice no later
-                  than 3 working days after you register. We will send
-                  the LoA and Invoice to the team leaders email, so
-                  make sure you include a valid and correct email
-                  address!
+                  After we receive your registration, we will send a
+                  confirmation email within 1X24 hours, and for LoA we will send
+                  it to the team leader's email address within 3X24 hours after
+                  registration.
                 </p>
               </div>
             </div>
@@ -75,8 +73,8 @@ const Faq = () => {
                 aria-controls="accordion-collapse-body-2"
               >
                 <span>
-                  Minsa, I registered a week ago but how come I have
-                  not received the LoA and Invoice yet?.
+                  Minsa, I registered one week ago, but why haven't I received
+                  my LoA and Invoice yet?
                 </span>
                 <svg
                   data-accordion-icon
@@ -103,9 +101,8 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  Try checking the spam folder in your team leaders
-                  email, maybe the email from the IYSA team will go to
-                  the spam folder
+                  Try checking the spam folder on your team leader's email,
+                  maybe the email from the IYSA team went to the spam folder.
                 </p>
               </div>
             </div>
@@ -117,9 +114,7 @@ const Faq = () => {
                 aria-expanded="false"
                 aria-controls="accordion-collapse-body-3"
               >
-                <span>
-                  Where to upload the competition file, Minsa?
-                </span>
+                <span>Where do you upload the competition file?</span>
                 <svg
                   data-accordion-icon
                   class="w-3 h-3 rotate-180 shrink-0"
@@ -145,9 +140,8 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  Upload the files requested by the committee to the
-                  Google Drive link that we have included in your LoA,
-                  make sure you read the LoA carefully, OK!
+                  The drive link for uploading files and the link for uploading
+                  proof of payment will be included in the invoice.
                 </p>
               </div>
             </div>
@@ -160,9 +154,8 @@ const Faq = () => {
                 aria-controls="accordion-collapse-body-5"
               >
                 <span>
-                  I want to pay the registration fee but how come I
-                  can not find the invoice? and where is the payment
-                  transferred?
+                  I want to pay the registration fee but how come I can not find
+                  the invoice? and where is the payment transferred?
                 </span>
                 <svg
                   data-accordion-icon
@@ -189,12 +182,11 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  Come on, have you read LoA to the end yet? Because
-                  we will send the invoice with your teams LoA, make
-                  sure you have read the email from us to the end! For
-                  payment, you can transfer to the account listed on
-                  the invoice. Make sure you pay according to the
-                  nominal stated on the invoice, okay!.
+                  Come on, have you read LoA to the end yet? Because we will
+                  send the invoice with your teams LoA, make sure you have read
+                  the email from us to the end! For payment, you can transfer to
+                  the account listed on the invoice. Make sure you pay according
+                  to the nominal stated on the invoice, okay!.
                 </p>
               </div>
             </div>
@@ -207,8 +199,8 @@ const Faq = () => {
                 aria-controls="accordion-collapse-body-6"
               >
                 <span>
-                  Minsa, I have already paid the registration fee.
-                  Where can I upload the proof of payment?
+                  Minsa, I have already paid the registration fee. Where can I
+                  upload the proof of payment?
                 </span>
                 <svg
                   data-accordion-icon
@@ -235,10 +227,10 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  If you have made a payment, you can upload the proof
-                  to the link listed on the invoice, and make sure you
-                  fill in and upload the proof of transfer correctly
-                  so that the committee can record it correctly too.
+                  If you have made a payment, you can upload the proof to the
+                  link listed on the invoice, and make sure you fill in and
+                  upload the proof of transfer correctly so that the committee
+                  can record it correctly too.
                 </p>
               </div>
             </div>
@@ -276,9 +268,9 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  We will send a receipt for payment in a maximum of 7
-                  working days to the team leaders email, after you
-                  have uploaded proof of payment!
+                  We will send a receipt for payment in a maximum of 7 working
+                  days to the team leaders email, after you have uploaded proof
+                  of payment!
                 </p>
               </div>
             </div>
@@ -291,8 +283,8 @@ const Faq = () => {
                 aria-controls="accordion-collapse-body-7"
               >
                 <span>
-                  Minsa, one more week for judging, how come I have
-                  not received my teams presentation schedule yet?
+                  Minsa, one more week for judging, how come I have not received
+                  my teams presentation schedule yet?
                 </span>
                 <svg
                   data-accordion-icon
@@ -319,12 +311,11 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  We will send the online participant presentation
-                  schedule no later than 2 days before the judging
-                  takes place to the whatsapp group and also the team
-                  leaders email. Make sure you diligently check the
-                  information we provide on the Whatsapp group and
-                  also email!
+                  We will send the online participant presentation schedule no
+                  later than 2 days before the judging takes place to the
+                  whatsapp group and also the team leaders email. Make sure you
+                  diligently check the information we provide on the Whatsapp
+                  group and also email!
                 </p>
               </div>
             </div>
@@ -349,8 +340,7 @@ const Faq = () => {
                 aria-controls="accordion-collapse-bodys-8"
               >
                 <span>
-                  When will the presentation schedule be given by the
-                  committee?
+                  When will the presentation schedule be given by the committee?
                 </span>
                 <svg
                   data-accordion-icon
@@ -377,10 +367,10 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  We will provide a presentation schedule no later
-                  than 2 days before the judging takes place or it
-                  could be earlier, and we will send it via the WA
-                  group and also the team leaders e-mail.
+                  We will provide a presentation schedule no later than 2 days
+                  before the judging takes place or it could be earlier, and we
+                  will send it via the WA group and also the team leaders
+                  e-mail.
                 </p>
               </div>
             </div>
@@ -393,8 +383,8 @@ const Faq = () => {
                 aria-controls="accordion-collapse-bodys-9"
               >
                 <span>
-                  What application used for online presentation? Zoom,
-                  Google Meet or something else?
+                  What application used for online presentation? Zoom, Google
+                  Meet or something else?
                 </span>
                 <svg
                   data-accordion-icon
@@ -421,9 +411,8 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  For online judging, we always use the Zoom
-                  application and make sure your Zoom application is
-                  up to date.
+                  For online judging, we always use the Zoom application and
+                  make sure your Zoom application is up to date.
                 </p>
               </div>
             </div>
@@ -435,9 +424,7 @@ const Faq = () => {
                 aria-expanded="false"
                 aria-controls="accordion-collapse-bodys-10"
               >
-                <span>
-                  When will the zoom link be given by the committee?
-                </span>
+                <span>When will the zoom link be given by the committee?</span>
                 <svg
                   data-accordion-icon
                   class="w-3 h-3 rotate-180 shrink-0"
@@ -463,9 +450,9 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  We will provide a Zoom link on the judging day, and
-                  we will send it periodically to the group according
-                  to your teams presentation time
+                  We will provide a Zoom link on the judging day, and we will
+                  send it periodically to the group according to your teams
+                  presentation time
                 </p>
               </div>
             </div>
@@ -478,9 +465,9 @@ const Faq = () => {
                 aria-controls="accordion-collapse-bodys-11"
               >
                 <span>
-                  We will provide a Zoom link on the judging day, and
-                  we will send it periodically to the group according
-                  to your teams presentation time
+                  We will provide a Zoom link on the judging day, and we will
+                  send it periodically to the group according to your teams
+                  presentation time
                 </span>
                 <svg
                   data-accordion-icon
@@ -508,9 +495,9 @@ const Faq = () => {
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                   You can enter Zoom with a maximum of 5 accounts for
-                  participants, and all Zoom accounts must follow the
-                  name format that we have provided, namely "Room
-                  Number_Team Leader Name_Institution Name"
+                  participants, and all Zoom accounts must follow the name
+                  format that we have provided, namely "Room Number_Team Leader
+                  Name_Institution Name"
                 </p>
               </div>
             </div>
@@ -523,8 +510,7 @@ const Faq = () => {
                 aria-controls="accordion-collapse-bodys-12"
               >
                 <span>
-                  how long will the participants make the
-                  presentation?
+                  how long will the participants make the presentation?
                 </span>
                 <svg
                   data-accordion-icon
@@ -551,11 +537,10 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  You will be given 15 minutes for 1 presentation
-                  session which will be divided into 2, namely the
-                  initial 7 minutes for the presentation and the final
-                  8 minutes for the question and answer session with
-                  the jury
+                  You will be given 15 minutes for 1 presentation session which
+                  will be divided into 2, namely the initial 7 minutes for the
+                  presentation and the final 8 minutes for the question and
+                  answer session with the jury
                 </p>
               </div>
             </div>
@@ -568,8 +553,7 @@ const Faq = () => {
                 aria-controls="accordion-collapse-bodys-13"
               >
                 <span>
-                  How many judges will come to the offline
-                  participants booth?
+                  How many judges will come to the offline participants booth?
                 </span>
                 <svg
                   data-accordion-icon
@@ -596,10 +580,10 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  Just like online judging, there will be 2 judges
-                  judging each team. And after being judged you will
-                  be given a sticker as a sign that your booth has
-                  been judged, make sure you get 2 stickers
+                  Just like online judging, there will be 2 judges judging each
+                  team. And after being judged you will be given a sticker as a
+                  sign that your booth has been judged, make sure you get 2
+                  stickers
                 </p>
               </div>
             </div>
@@ -611,9 +595,7 @@ const Faq = () => {
                 aria-expanded="false"
                 aria-controls="accordion-collapse-bodys-14"
               >
-                <span>
-                  Can we tidy up our booth after being judged?
-                </span>
+                <span>Can we tidy up our booth after being judged?</span>
                 <svg
                   data-accordion-icon
                   class="w-3 h-3 rotate-180 shrink-0"
@@ -639,10 +621,9 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  You can start tidying up the booth when all the
-                  teams have finished being judged, so if you have
-                  finished judging you can visit the booths of other
-                  participants first
+                  You can start tidying up the booth when all the teams have
+                  finished being judged, so if you have finished judging you can
+                  visit the booths of other participants first
                 </p>
               </div>
             </div>
@@ -692,9 +673,9 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  Announcement of winners is held on the last day of
-                  each event, you can check the date on the schedule
-                  listed in the Guide Book.
+                  Announcement of winners is held on the last day of each event,
+                  you can check the date on the schedule listed in the Guide
+                  Book.
                 </p>
               </div>
             </div>
@@ -732,8 +713,8 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  You can check the final results on the official
-                  website of the event you are participating in.
+                  You can check the final results on the official website of the
+                  event you are participating in.
                 </p>
               </div>
             </div>
@@ -771,12 +752,11 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  IYSA DOES NOT send E-Certificates to National
-                  participants or Indonesian Participants who take
-                  part in online events. Online National Participants
-                  will only receive a certificate in printed/hard form
-                  which will later be sent along with the medals via
-                  the JNE expedition.
+                  IYSA DOES NOT send E-Certificates to National participants or
+                  Indonesian Participants who take part in online events. Online
+                  National Participants will only receive a certificate in
+                  printed/hard form which will later be sent along with the
+                  medals via the JNE expedition.
                 </p>
               </div>
             </div>
@@ -789,8 +769,7 @@ const Faq = () => {
                 aria-controls="accordion-collapse-bodyse-18"
               >
                 <span>
-                  When is the online delivery of participant
-                  certificates?
+                  When is the online delivery of participant certificates?
                 </span>
                 <svg
                   data-accordion-icon
@@ -817,11 +796,10 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  The certificate will be sent no later than one month
-                  after the announcement of the winner. You can
-                  periodically check the delivery receipt that we sent
-                  on the Whatsapp group whether your certificate has
-                  been sent or not.
+                  The certificate will be sent no later than one month after the
+                  announcement of the winner. You can periodically check the
+                  delivery receipt that we sent on the Whatsapp group whether
+                  your certificate has been sent or not.
                 </p>
               </div>
             </div>
@@ -833,9 +811,7 @@ const Faq = () => {
                 aria-expanded="false"
                 aria-controls="accordion-collapse-bodyse-19"
               >
-                <span>
-                  Where can we get a supervisor certificate?
-                </span>
+                <span>Where can we get a supervisor certificate?</span>
                 <svg
                   data-accordion-icon
                   class="w-3 h-3 rotate-180 shrink-0"
@@ -861,9 +837,8 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  You can see and download the supervisor certificate
-                  on the official website of the event you are
-                  participating in.
+                  You can see and download the supervisor certificate on the
+                  official website of the event you are participating in.
                 </p>
               </div>
             </div>
@@ -901,14 +876,12 @@ const Faq = () => {
             >
               <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  For offline participants, you can immediately
-                  duplicate the medals on the spot after the
-                  announcement of the winners takes place. And for
-                  online participants, you can duplicate the medals
-                  via the link we sent on the Whatsapp group, we will
-                  send duplicate information on the Whatsapp group no
-                  later than 2 days after the announcement of the
-                  winner.
+                  For offline participants, you can immediately duplicate the
+                  medals on the spot after the announcement of the winners takes
+                  place. And for online participants, you can duplicate the
+                  medals via the link we sent on the Whatsapp group, we will
+                  send duplicate information on the Whatsapp group no later than
+                  2 days after the announcement of the winner.
                 </p>
               </div>
             </div>
