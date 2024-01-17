@@ -50,7 +50,7 @@ const Services = () => {
                 <img
                   alt="card img"
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                  src="./assets/logo/life.jpg"
+                  src="./assets/logo/life.png"
                 />
                 <h2 className="font-semibold my-4 text-2xl text-center">
                   Life Sciences
@@ -68,7 +68,7 @@ const Services = () => {
                 <img
                   alt="card img"
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                  src="./assets/logo/env.jpg"
+                  src="./assets/logo/env.png"
                 />
                 <h2 className="font-semibold my-4 text-2xl text-center ">
                   Environmental Science
@@ -87,7 +87,7 @@ const Services = () => {
                 <img
                   alt="card img"
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                  src="./assets/logo/inov.jpg"
+                  src="./assets/logo/inov.png"
                 />
                 <h2 className="font-semibold my-4 text-2xl text-center ">
                   Innovation Science
@@ -105,7 +105,7 @@ const Services = () => {
                 <img
                   alt="card img"
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                  src="./assets/logo/en.jpg"
+                  src="./assets/logo/en.png"
                 />
                 <h2 className="font-semibold my-4 text-2xl text-center ">
                   Engineering
