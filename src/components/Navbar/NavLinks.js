@@ -5,35 +5,35 @@ const NavLinks = () => {
   return (
     <>
       <HashLink
-        className="px-4 font-extrabold text-gray-500 hover:text-blue-900"
+        className="px-4 font-extrabold text-gray-500 hover:text-green-900"
         smooth
         to="/#hero"
       >
         Home
       </HashLink>
       <HashLink
-        className="px-4 font-extrabold text-gray-500 hover:text-blue-900"
+        className="px-4 font-extrabold text-gray-500 hover:text-green-900"
         smooth
         to="/#about"
       >
         About
       </HashLink>
       <HashLink
-        className="px-4 font-extrabold text-gray-500 hover:text-blue-900"
+        className="px-4 font-extrabold text-gray-500 hover:text-green-900"
         to="/Faq"
       >
         Faq
       </HashLink>
       <HashLink
-        className="px-4 font-extrabold text-gray-500 hover:text-blue-900"
+        className="px-4 font-extrabold text-gray-500 hover:text-green-900"
         to="/contact#contact"
       >
         Contact
       </HashLink>
       <a
-        href="https://iif-regional.or.id/"
+        href="https://drive.google.com/file/d/1Tao9l2dB_1M0lEvarYnhd5-lRRUGrmof/view?usp=sharing"
         target="_blank"
-        className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-auto px-6 py-3 shadow-xl rounded-xl"
+        className="text-white bg-green-900 hover:bg-green-700 inline-flex items-center justify-center w-auto px-6 py-3 shadow-xl rounded-xl"
         smooth
       >
         Guide Book

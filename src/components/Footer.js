@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="grid sm:grid-cols-12 gap-5 py-9 md:py-12 border-t border-gray-200 lg:ml-11">
             {/* 1st block */}
             <div className="col-span-12 lg:col-span-4">
-              <div className="border-blue-900 p-10 bg-gray-100 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
+              <div className="border-green-900 p-10 bg-gray-100 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
                 {/* <h3 className="font-bold text-4xl mb-4">MLD</h3>
                             <div className='text-md font-medium text-gray-600'>
                                 <h5>Molad e Konsult</h5>
@@ -25,14 +25,14 @@ const Footer = () => {
 
             {/* 2nd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 mx-auto">
-              <h6 className="text-[#013289] text-xl font-bold mb-4">
+              <h6 className="text-[#008000] text-xl font-bold mb-4">
                 LINK
               </h6>
               <ul className="text-md">
                 <li className="mb-2">
                   <HashLink
                     to="/#hero"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#008000] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     About
                   </HashLink>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <HashLink
                     to="/Faq"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#008000] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     Faq
                   </HashLink>
@@ -48,7 +48,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <HashLink
                     to="/contact"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#008000] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     Contact
                   </HashLink>
@@ -58,7 +58,7 @@ const Footer = () => {
 
             {/* 3rd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
-              <h6 className="text-[#013289] text-xl font-bold mb-4">
+              <h6 className="text-[#008000] text-xl font-bold mb-4">
                 CONTACT INFO
               </h6>
               <ul className="text-md">
@@ -66,7 +66,7 @@ const Footer = () => {
                   <a
                     href="https://maps.app.goo.gl/mXBBKFZt5FrXxsmf9"
                     target="_blank"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#008000] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     Jl. Kemang No. 63 RT 03 RW 06
                   </a>
@@ -75,7 +75,7 @@ const Footer = () => {
                   <a
                     href="mailto:youngscientist.iysa@gmail.com"
                     target="_blank"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#008000] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     youngscientist.iysa@gmail.com
                   </a>
@@ -84,7 +84,7 @@ const Footer = () => {
                   <a
                     href="https://wa.me/+6281770914129"
                     target="_blank"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#008000] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     +6281770914129
                   </a>
@@ -93,7 +93,7 @@ const Footer = () => {
             </div>
 
             {/* 4th block */}
-            <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-blue-900">
+            <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-green-900">
               <div className="text-xl mb-6">Social Media.</div>
 
               <div className="text-md font-medium mb-6">
@@ -105,7 +105,7 @@ const Footer = () => {
                     <a
                       href="https://www.instagram.com/iysa_official/?hl=id"
                       target="_blank"
-                      className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                      className="flex justify-center items-center text-green-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Instagram"
                     >
                       <svg
@@ -122,7 +122,7 @@ const Footer = () => {
                     <a
                       href="https://www.facebook.com/people/Indonesia-Young-scientist-Association/100063979907207/"
                       target="_blank"
-                      className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                      className="flex justify-center items-center text-green-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Facebook"
                     >
                       <svg
@@ -138,7 +138,7 @@ const Footer = () => {
                     <a
                       href="wa.me/6281770914129"
                       target="_blank"
-                      className="flex justify-center items-center text-blue-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                      className="flex justify-center items-center text-green-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Whatsapp"
                     >
                       <svg
@@ -154,7 +154,7 @@ const Footer = () => {
                     <a
                       href="https://www.youtube.com/@IYSAOfficial"
                       target="_blank"
-                      className="flex justify-center items-center text-blue-900 hover:text-gray-500 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                      className="flex justify-center items-center text-green-900 hover:text-gray-500 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Youtube"
                     >
                       <svg
