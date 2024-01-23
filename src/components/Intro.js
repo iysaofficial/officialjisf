@@ -1,6 +1,6 @@
-import React from 'react';
-import img from '../images/Web-developer.svg';
-import { Link } from 'react-router-dom';
+import React from "react";
+import img from "../images/Web-developer.svg";
+import { Link } from "react-router-dom";
 
 const Intro = () => {
   return (
@@ -22,21 +22,25 @@ const Intro = () => {
             data-aos="zoom-in"
             data-aos-delay="500"
           >
-            <h3 className="text-3xl  text-green-900 font-bold">
-              About JISF
-            </h3>
+            <h3 className="text-3xl  text-green-900 font-bold">About JISF</h3>
             <div>
               <p className="my-3 text-xl text-gray-600 font-semibold">
-                Our team is well vast in software development and is
-                ready to help develop the applications of your choice.
+                Indonesian Young Scientist Association (IYSA) in collaboration
+                with the Indonesia National Institute for Life Sciences (i3L)
+                organised a scientific competition called "Jakarta National
+                Science Fair" for the first time JNSF organised in hybrid
+                situation competition (Online and Offline).
               </p>
             </div>
 
             <div>
               <p className="my-3 text-xl text-gray-600 font-semibold">
-                We take responsibility for building custom software
-                solutions that caters for automation of your business
-                processes and improve efficiency.
+                JNSF is emerging as a prestigious platform dedicated to
+                fostering scientific innovation and collaboration on a global
+                scale. Recognising the importance of scientific advancement in
+                addressing contemporary challenges, the JNSF stands as a beacon
+                for research scientists, and innovators to come together and
+                share their groundbreaking discoveries.
               </p>
             </div>
             {/* <Link to="/contact" className="text-white bg-green-900 hover:bg-green-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
