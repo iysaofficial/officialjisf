@@ -28,17 +28,17 @@ const Intro = () => {
                 Indonesian Young Scientist Association (IYSA) in collaboration
                 with the Indonesia National Institute for Life Sciences (i3L)
                 organised a scientific competition called "Jakarta National
-                Science Fair" for the first time JNSF organised in hybrid
+                Science Fair" for the first time JISF organised in hybrid
                 situation competition (Online and Offline).
               </p>
             </div>
 
             <div>
               <p className="my-3 text-xl text-gray-600 font-semibold">
-                JNSF is emerging as a prestigious platform dedicated to
+                JISF is emerging as a prestigious platform dedicated to
                 fostering scientific innovation and collaboration on a global
                 scale. Recognising the importance of scientific advancement in
-                addressing contemporary challenges, the JNSF stands as a beacon
+                addressing contemporary challenges, the JISF stands as a beacon
                 for research scientists, and innovators to come together and
                 share their groundbreaking discoveries.
               </p>
