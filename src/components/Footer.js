@@ -73,11 +73,11 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                   <a
-                    href="mailto:yjakartascience.jisf@gmail.com"
+                    href="mailto:jakartascience.jisf@gmail.com"
                     target="_blank"
                     className="text-[#008000] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
-                    yjakartascience.jisf@gmail.com
+                    jakartascience.jisf@gmail.com
                   </a>
                 </li>
                 <li className="mb-2">
