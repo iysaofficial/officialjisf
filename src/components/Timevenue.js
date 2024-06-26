@@ -17,7 +17,7 @@ const Timevenue = () => {
               src="./assets/logo/venue.jpg"
             />
             <a className="font-bold">
-            Venue Location :
+            Venue Location:{" "}
               <a
                 href="https://maps.app.goo.gl/vh15YCjxTGiJY7Gy9"
                 target="_blank"
