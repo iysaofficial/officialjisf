@@ -17,12 +17,12 @@ const Timevenue = () => {
               src="./assets/logo/venue.jpg"
             />
             <a className="font-bold">
-              Lokasi Venue :
+            Venue Location :
               <a
                 href="https://maps.app.goo.gl/vh15YCjxTGiJY7Gy9"
                 target="_blank"
               >
-                Klik Disini
+                 Click Here
               </a>
             </a>
           </div>
