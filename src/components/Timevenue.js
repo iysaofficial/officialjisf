@@ -19,7 +19,7 @@ const Timevenue = () => {
             <a className="font-bold">
             Venue Location:{" "}
               <a
-                href="https://maps.app.goo.gl/vh15YCjxTGiJY7Gy9"
+                href="https://maps.app.goo.gl/MhNer5evTCbPf9My7"
                 target="_blank"
               >
                  Click Here
