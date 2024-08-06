@@ -12,6 +12,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import DemoProduct from './pages/DemoProduct';
 import Faq from './pages/Faq';
+import LoW from './pages/LoW';
 
 import { useDocTitle } from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
@@ -42,6 +43,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/get-demo" element={<DemoProduct />} />
             <Route path="/Faq" element={<Faq />} />
+            <Route path="/ListofWinner" element={<LoW />} />
           </Routes>
         </ScrollToTop>
       </Router>
