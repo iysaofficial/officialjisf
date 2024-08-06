@@ -14,6 +14,18 @@ import DemoProduct from './pages/DemoProduct';
 import Faq from './pages/Faq';
 import LoW from './pages/LoW';
 
+
+// list winner
+import Spesial from './pages/listwinner/Spesial';
+import OfflineElement from './pages/listwinner/OfflineElement';
+import OfflineSecond from './pages/listwinner/OfflineSecond';
+import OfflineUniv from './pages/listwinner/OfflineUniv';
+import OnlineElement from './pages/listwinner/OnlineElement';
+import OnlineSecond from './pages/listwinner/OnlineSecond';
+import OnlineUniv from './pages/listwinner/OnlineUniv';
+import Offline2024 from './pages/listwinner/Offline2024';
+import Online2024 from './pages/listwinner/Online2024';
+
 import { useDocTitle } from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -44,6 +56,21 @@ function App() {
             <Route path="/get-demo" element={<DemoProduct />} />
             <Route path="/Faq" element={<Faq />} />
             <Route path="/ListofWinner" element={<LoW />} />
+            <Route path="/Winner2024" element={<Spesial />} />
+            <Route path="/Offline2024" element={<Offline2024 />} />
+            <Route path="/Online2024" element={<Online2024 />} />
+
+
+
+
+
+
+            <Route path="/ElementaryOffline" element={<OfflineElement />} />
+            <Route path="/SecondaryOffline" element={<OfflineSecond />} />
+            <Route path="/UniversitasOffline" element={<OfflineUniv/>} />
+            <Route path="/ElementaryOnline" element={<OnlineElement/>} />
+            <Route path="/SecondaryOnline" element={<OnlineSecond/>} />
+            <Route path="/UniversitasOnline" element={<OnlineUniv/>} />
           </Routes>
         </ScrollToTop>
       </Router>

@@ -89,7 +89,13 @@ const Aftermovie = () => {
                 </h1>
               </div>
               <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
-                <iframe src="https://www.youtube.com/embed/kN7vJh84Zqk?si=aQoo-k0IWt_XuFFO"></iframe>
+                <iframe
+                  src="https://www.youtube.com/embed/kN7vJh84Zqk?si=aQoo-k0IWt_XuFFO"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
           </form>
