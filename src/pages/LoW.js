@@ -37,7 +37,7 @@ const LoW = () => {
                     src="./assets/logo/new.jpg"
                   />
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
-                    List of Winner
+                    List of Winner 2024
                   </h2>
                   <a className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
