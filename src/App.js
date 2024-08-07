@@ -14,6 +14,9 @@ import DemoProduct from './pages/DemoProduct';
 import Faq from './pages/Faq';
 import LoW from './pages/LoW';
 
+// certificate
+import Certificatesupervisor from './pages/certife/Certificatesupervisor';
+
 
 // list winner
 import Spesial from './pages/listwinner/Spesial';
@@ -59,18 +62,14 @@ function App() {
             <Route path="/Winner2024" element={<Spesial />} />
             <Route path="/Offline2024" element={<Offline2024 />} />
             <Route path="/Online2024" element={<Online2024 />} />
-
-
-
-
-
-
             <Route path="/ElementaryOffline" element={<OfflineElement />} />
             <Route path="/SecondaryOffline" element={<OfflineSecond />} />
             <Route path="/UniversitasOffline" element={<OfflineUniv/>} />
             <Route path="/ElementaryOnline" element={<OnlineElement/>} />
             <Route path="/SecondaryOnline" element={<OnlineSecond/>} />
             <Route path="/UniversitasOnline" element={<OnlineUniv/>} />
+
+            <Route path="/CertificateSupervisor" element={<Certificatesupervisor/>} />
           </Routes>
         </ScrollToTop>
       </Router>
