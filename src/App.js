@@ -31,6 +31,8 @@ import Online2024 from './pages/listwinner/Online2024';
 
 import { useDocTitle } from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
+import News2024 from './pages/berita/News2024';
+import Berita2024 from './pages/berita/berita2024/Berita2024';
 
 function App() {
   useEffect(() => {
@@ -70,6 +72,8 @@ function App() {
             <Route path="/UniversitasOnline" element={<OnlineUniv/>} />
 
             <Route path="/CertificateSupervisor" element={<Certificatesupervisor/>} />
+            <Route path="/Mediacoverage" element={<News2024/>} />
+            <Route path="/News2024" element={<Berita2024/>} />
           </Routes>
         </ScrollToTop>
       </Router>

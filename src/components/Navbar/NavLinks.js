@@ -18,14 +18,6 @@ const NavLinks = () => {
       >
         About
       </HashLink>
-      <a
-        href="https://drive.google.com/file/d/1XZ_Vs81A4uEtYZ4gpHMBOicJuRl4BMPj/view?usp=sharing"
-        target="_blank"
-        className="px-4 font-extrabold text-gray-500 hover:text-green-900"
-        smooth
-      >
-        Press Release
-      </a>
 
       <HashLink
         className="px-4 font-extrabold text-gray-500 hover:text-green-900"
@@ -45,6 +37,13 @@ const NavLinks = () => {
       >
         Certificate
       </HashLink>
+      <a
+        href="/MediaCoverage"
+        className="px-4 font-extrabold text-gray-500 hover:text-green-900"
+        smooth
+      >
+        Media Coverage
+      </a>
       <a
         href="https://drive.google.com/drive/folders/1QGL9JxavpwplBKO-NNhHrDg3wjPaGBUG?usp=sharing"
         target="_blank"
