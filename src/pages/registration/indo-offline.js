@@ -29,7 +29,7 @@ function IndonesiaOffline() {
   };
 
   useEffect(() => {
-    const termsAccepted = localStorage.getItem("termsAccepted");
+    const termsAccepted = sessionStorage.getItem("termsAccepted");
 
     if (!termsAccepted) {
       alert("Anda harus menyetujui Syarat & Ketentuan terlebih dahulu.");
@@ -452,6 +452,7 @@ function IndonesiaOffline() {
                     <option value="Environmental Science">Environmental Science</option>
                     <option value="Innovation Science">Innovation Science</option>
                     <option value="Engineering">Engineering</option>
+                    <option value="Science in Islam">Science in Islam</option>
                   </select>
                 </div>
 

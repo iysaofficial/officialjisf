@@ -17,14 +17,14 @@ function HomeInter() {
 
   const handleAccept = () => {
     if (termsAccepted) {
+      sessionStorage.setItem("termsAccepted", "true"); // Menyimpan status setuju di sessionStorage
       setShowModal(false);
-      setTermsAccepted(false); // Reset checkbox untuk penggunaan berikutnya
-      window.location.href = redirectLink; // Redirect ke halaman
+      window.location.href = redirectLink;
     } else {
       alert("Please agree to the Terms & Conditions to proceed.");
     }
   };
-
+  
   useEffect(() => {
     const hasAcceptedTerms = sessionStorage.getItem("termsAccepted");
     if (hasAcceptedTerms === "true") {

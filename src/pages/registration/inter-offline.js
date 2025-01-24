@@ -30,14 +30,13 @@ export default function InternationalOffline() {
   };
 
   useEffect(() => {
-    const termsAccepted = localStorage.getItem("termsAccepted");
+    const termsAccepted = sessionStorage.getItem("termsAccepted");
 
     if (!termsAccepted) {
       alert("You must agree to the Terms & Conditions first.");
       navigate("/homeinter"); // Navigasi ke halaman HomeIndo
     }
   }, [navigate]);
-
   
 
   useEffect(() => {
@@ -479,6 +478,7 @@ export default function InternationalOffline() {
                     <option value="Environmental Science">Environmental Science</option>
                     <option value="Innovation Science">Innovation Science</option>
                     <option value="Engineering">Engineering</option>
+                    <option value="Science in Islam">Science in Islam</option>
                   </select>
                 </div>
                 <div class="input-box">

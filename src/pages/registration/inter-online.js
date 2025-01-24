@@ -52,6 +52,9 @@ export default function InternationalOnline() {
       case "Engineering":
         setCategoryPrice("75 USD");
         break;
+      case "Science in Islam":
+        setCategoryPrice("75 USD");
+        break;
       default:
         setCategoryPrice("");
         break;
@@ -59,11 +62,11 @@ export default function InternationalOnline() {
   };
 
   useEffect(() => {
-    const termsAccepted = localStorage.getItem("termsAccepted");
+    const termsAccepted = sessionStorage.getItem("termsAccepted");
 
     if (!termsAccepted) {
-      alert("Anda harus menyetujui Syarat & Ketentuan terlebih dahulu.");
-      navigate("/homeindo"); // Navigasi ke halaman HomeIndo
+      alert("You must agree to the Terms & Conditions first.");
+      navigate("/homeinter"); // Navigasi ke halaman HomeIndo
     }
   }, [navigate]);
 
@@ -508,6 +511,7 @@ export default function InternationalOnline() {
                       Innovation Science
                     </option>
                     <option value="Engineering">Engineering</option>
+                    <option value="Science in Islam">Science in Islam</option>
                   </select>
                 </div>
                 <div class="input-box">

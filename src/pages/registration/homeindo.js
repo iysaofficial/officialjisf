@@ -3,6 +3,7 @@ import Footer from "../../components/Footer";
 import { indonesiaOnlineTerms, indonesiaOfflineTerms } from "../../pages/data/terms";
 import { useState, useEffect } from "react";
 
+
 function HomeIndo() {
   const [showModal, setShowModal] = useState(false);
   const [termsAccepted, setTermsAccepted] = useState(false);
@@ -15,7 +16,7 @@ function HomeIndo() {
     setShowModal(true); // Tampilkan modal
   };
 
- const handleAccept = () => {
+  const handleAccept = () => {
     if (termsAccepted) {
       sessionStorage.setItem("termsAccepted", "true"); // Menyimpan status setuju di sessionStorage
       setShowModal(false);
@@ -35,8 +36,6 @@ function HomeIndo() {
   return (
     <>
       <Navigation />
-      {/* PAGE HEADER START */}
-      {/* PAGE HEADER END */}
       <section className="homeregist-section">
         <div>
           <div className="wrapper">

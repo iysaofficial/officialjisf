@@ -1,8 +1,8 @@
-import React from 'react';
-import img from '../images/web.svg';
-import img2 from '../images/app.svg';
-import img3 from '../images/hosting.svg';
-import img4 from '../images/consultation.svg';
+import React from "react";
+import img from "../images/web.svg";
+import img2 from "../images/app.svg";
+import img3 from "../images/hosting.svg";
+import img4 from "../images/consultation.svg";
 
 const Services = () => {
   return (
@@ -21,12 +21,8 @@ const Services = () => {
           </h2>
         </div>
 
-        <div
-          className="px-12"
-          data-aos="fade-down"
-          data-aos-delay="600"
-        >
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
+        <div className="px-12" data-aos="fade-down" data-aos-delay="600">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-6 gap-5">
             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
               <div className="m-2 text-justify text-sm">
                 <img
@@ -38,9 +34,9 @@ const Services = () => {
                   Social Science
                 </h2>
                 <p className="text-md font-medium">
-                  One of the branches of science that is devoted to
-                  study society and the relationships between
-                  individuals in that society.
+                  One of the branches of science that is devoted to study
+                  society and the relationships between individuals in that
+                  society.
                 </p>
               </div>
             </div>
@@ -56,9 +52,9 @@ const Services = () => {
                   Life Sciences
                 </h2>
                 <p className="text-md font-medium">
-                  A science that demands the systematic and holistic
-                  study of of living organisms, with a focus on
-                  generating various scientific breakthroughs.
+                  A science that demands the systematic and holistic study of
+                  living organisms, with a focus on generating various
+                  scientific breakthroughs.
                 </p>
               </div>
             </div>
@@ -74,10 +70,10 @@ const Services = () => {
                   Environmental Science
                 </h2>
                 <p className="text-md font-medium">
-                  In addition to various aspects of the natural and
-                  social sciences, students are also encouraged to
-                  explore psychological approaches, policy-making, and
-                  scientific studies
+                  In addition to various aspects of the natural and social
+                  sciences, students are also encouraged to explore
+                  psychological approaches, policy-making, and scientific
+                  studies.
                 </p>
               </div>
             </div>
@@ -93,9 +89,8 @@ const Services = () => {
                   Innovation Science
                 </h2>
                 <p className="text-md font-medium">
-                  To give you insight into the nature of change
-                  technology and the conditions affecting innovation
-                  and knowledge production.
+                  To give you insight into the nature of change technology and
+                  the conditions affecting innovation and knowledge production.
                 </p>
               </div>
             </div>
@@ -111,8 +106,27 @@ const Services = () => {
                   Engineering
                 </h2>
                 <p className="text-md font-medium">
-                  profession of a professional who designs and plan
-                  the construction of various structures and systems.
+                  Profession of a professional who designs and plans the
+                  construction of various structures and systems.
+                </p>
+              </div>
+            </div>
+
+            {/* <!-- Kategori Baru --> */}
+            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+              <div className="m-2 text-justify text-sm">
+                <img
+                  alt="card img"
+                  className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+                  src="./assets/logo/ScienceinIslam.png"
+                />
+                <h2 className="font-semibold my-4 text-2xl text-center">
+                  Science in Islam
+                </h2>
+                <p className="text-md font-medium">
+                  Exploring scientific advancements within the framework of
+                  Islamic values, history, and contributions to global science
+                  and knowledge.
                 </p>
               </div>
             </div>

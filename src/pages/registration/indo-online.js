@@ -4,7 +4,6 @@ import Footer from "../../components/Footer";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-
 function IndonesiaOnline() {
   const [selectedMaxNamaLengkap, setselectedMaxNamaLengkap] = useState("");
   const maxNameChars = 180; // batasan maksimal karakter
@@ -15,7 +14,6 @@ function IndonesiaOnline() {
   const [statusMessage, setStatusMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate(); // React Router hook untuk navigasi
-
 
   const handleInputNameChange = (e) => {
     const { value } = e.target;
@@ -52,6 +50,9 @@ function IndonesiaOnline() {
       case "Engineering":
         setCategoryPrice("RP 950.000");
         break;
+      case "Science in Islam":
+        setCategoryPrice("Rp 950.000");
+        break;
       default:
         setCategoryPrice("");
         break;
@@ -59,7 +60,7 @@ function IndonesiaOnline() {
   };
 
   useEffect(() => {
-    const termsAccepted = localStorage.getItem("termsAccepted");
+    const termsAccepted = sessionStorage.getItem("termsAccepted");
 
     if (!termsAccepted) {
       alert("Anda harus menyetujui Syarat & Ketentuan terlebih dahulu.");
@@ -370,7 +371,9 @@ function IndonesiaOnline() {
 
               {/* DATA PEMBIMBING START */}
               {/* DATA PEMBIMBING START */}
-              <h1 className="text-sm md:text-lg lg:text-5xl">DATA PEMBIMBING</h1>
+              <h1 className="text-sm md:text-lg lg:text-5xl">
+                DATA PEMBIMBING
+              </h1>
               <h1 className="garis-bawah"></h1>
               <div className="user-details">
                 <div class="input-box">
@@ -430,7 +433,9 @@ function IndonesiaOnline() {
               {/* DETAIL PROJECT START */}
               {/* DETAIL PROJECT START */}
               <div className="">
-                <h1 className="text-sm md:text-lg lg:text-5xl">DETAIL PROYEK</h1>
+                <h1 className="text-sm md:text-lg lg:text-5xl">
+                  DETAIL PROYEK
+                </h1>
                 <h1 className="garis-bawah"></h1>
               </div>
               <div className="user-details">
@@ -481,6 +486,7 @@ function IndonesiaOnline() {
                       Innovation Science
                     </option>
                     <option value="Engineering">Engineering</option>
+                    <option value="Science in Islam">Science in Islam</option>
                   </select>
                 </div>
 
@@ -542,7 +548,9 @@ function IndonesiaOnline() {
               {/* GENERAL INFORMATION START */}
               {/* GENERAL INFORMATION START */}
               <div className="">
-                <h1 className="text-sm md:text-lg lg:text-5xl">INFORMASI UMUM</h1>
+                <h1 className="text-sm md:text-lg lg:text-5xl">
+                  INFORMASI UMUM
+                </h1>
                 <h1 className="garis-bawah"></h1>
               </div>
               <div className="user-details">
