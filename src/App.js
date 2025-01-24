@@ -34,6 +34,13 @@ import ScrollToTop from './components/ScrollToTop';
 import News2024 from './pages/berita/News2024';
 import Berita2024 from './pages/berita/berita2024/Berita2024';
 
+import HomeRegist from './pages/registration/homeregist';
+import HomeIndo from './pages/registration/homeindo';
+import IndonesiaOffline from './pages/registration/indo-offline';
+import IndonesiaOnline from './pages/registration/indo-online';
+import Thankyou from './pages/thankyoupage';
+
+
 function App() {
   useEffect(() => {
     const aos_init = () => {
@@ -74,6 +81,11 @@ function App() {
             <Route path="/CertificateSupervisor" element={<Certificatesupervisor/>} />
             <Route path="/Mediacoverage" element={<News2024/>} />
             <Route path="/News2024" element={<Berita2024/>} />
+            <Route path="/homeregist" element={<HomeRegist/>} />
+            <Route path="/homeindo" element={<HomeIndo/>} />
+            <Route path="/indooffline" element={<IndonesiaOffline/>} />
+            <Route path="/indoonline" element={<IndonesiaOnline/>} />
+            <Route path="/thankyou" element={<Thankyou/>} />
           </Routes>
         </ScrollToTop>
       </Router>

@@ -7,7 +7,7 @@ import Intro from '../components/Intro';
 import Aftermovie from '../components/Aftermovie';
 // import Portfolio from '../components/Portfolio';
 import Services from '../components/Services';
-import Timevenue from '../components/Timevenue';
+// import Timevenue from '../components/Timevenue';
 
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
         <>
             <Hero />
             <Intro />
-            <Timevenue />
+            {/* <Timevenue /> */}
             <Aftermovie />
             <Services />
             {/* <Portfolio /> */}
