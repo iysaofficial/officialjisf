@@ -2,6 +2,7 @@ import Navigation from '../../components/Navbar/NavBar';
 import Footer from '../../components/Footer';
 
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function IndonesiaOffline() {
   const [selectedMaxNamaLengkap, setselectedMaxNamaLengkap] = useState("");
@@ -10,6 +11,8 @@ function IndonesiaOffline() {
   const maxProjectChars = 160; // batasan maksimal karakter
   const [statusMessage, setStatusMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const navigate = useNavigate(); // React Router hook untuk navigasi
+
 
   const handleInputNameChange = (e) => {
     const { value } = e.target;
@@ -25,47 +28,56 @@ function IndonesiaOffline() {
     }
   };
 
-  // useEffect(() => {
-  //   const scriptURL =
-  //     "https://script.google.com/macros/s/AKfycbwselKGmiYIh6Q0F4BXPLHYAWgAG-51jL_0EoZJwTuJXL7TFhf5bCmSYgT7qHv9GAlm4Q/exec";
+  useEffect(() => {
+    const termsAccepted = localStorage.getItem("termsAccepted");
 
-  //   const form = document.forms["regist-form"];
-  //   let buttonCounter = 0;
+    if (!termsAccepted) {
+      alert("Anda harus menyetujui Syarat & Ketentuan terlebih dahulu.");
+      navigate("/homeindo"); // Navigasi ke halaman HomeIndo
+    }
+  }, [navigate]);
 
-  //   if (form) {
-  //     const handleSubmit = async (e) => {
-  //       e.preventDefault();
-  //       if (buttonCounter === 0) {
-  //         buttonCounter++; // Cegah klik ganda
-  //         setIsLoading(true); // Tampilkan loader
-  //         try {
-  //           const response = await fetch(scriptURL, {
-  //             method: "POST",
-  //             body: new FormData(form),
-  //           });
-  //           if (response.ok) {
-  //             setStatusMessage("Data berhasil dikirim!");
-  //             form.reset(); // Reset form hanya jika pengiriman sukses
-  //             setTimeout(() => {
-  //               window.location.href = "/thankyou"; // Redirect setelah 1 detik
-  //             }, 1000);
-  //           } else {
-  //             setStatusMessage("Terjadi kesalahan saat mengirim data.");
-  //           }
-  //         } catch (error) {
-  //           setStatusMessage("Terjadi kesalahan saat mengirim data.");
-  //         } finally {
-  //           setIsLoading(false); // Sembunyikan loader
-  //           buttonCounter = 0; // Reset counter untuk klik selanjutnya
-  //         }
-  //       }
-  //     };
-  //     form.addEventListener("submit", handleSubmit);
-  //     return () => {
-  //       form.removeEventListener("submit", handleSubmit);
-  //     };
-  //   }
-  // }, []);
+  useEffect(() => {
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbz_CQspO3oV_LOTX5iVSy1_v_lDQ3boMTr5gE0b0S3mxmUJ9tmWAoTnUZhzWeddxPkw5Q/exec";
+
+    const form = document.forms["regist-form"];
+    let buttonCounter = 0;
+
+    if (form) {
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        if (buttonCounter === 0) {
+          buttonCounter++; // Cegah klik ganda
+          setIsLoading(true); // Tampilkan loader
+          try {
+            const response = await fetch(scriptURL, {
+              method: "POST",
+              body: new FormData(form),
+            });
+            if (response.ok) {
+              setStatusMessage("Data berhasil dikirim!");
+              form.reset(); // Reset form hanya jika pengiriman sukses
+              setTimeout(() => {
+                window.location.href = "/thankyouindo"; // Redirect setelah 1 detik
+              }, 1000);
+            } else {
+              setStatusMessage("Terjadi kesalahan saat mengirim data.");
+            }
+          } catch (error) {
+            setStatusMessage("Terjadi kesalahan saat mengirim data.");
+          } finally {
+            setIsLoading(false); // Sembunyikan loader
+            buttonCounter = 0; // Reset counter untuk klik selanjutnya
+          }
+        }
+      };
+      form.addEventListener("submit", handleSubmit);
+      return () => {
+        form.removeEventListener("submit", handleSubmit);
+      };
+    }
+  }, []);
 
   return (
     <>
@@ -78,7 +90,7 @@ function IndonesiaOffline() {
             <br />
             <br />
             <h4 className='text-xl'>
-              HALLO PESERTA JNSF 2025, Mohon perhatikan informasi berikut ini
+              HALLO PESERTA JISF 2025, Mohon perhatikan informasi berikut ini
               sebelum mengisi formulir pendaftaran :
             </h4>
             <br />
@@ -511,7 +523,7 @@ function IndonesiaOffline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    Sumber Informasi Kompetisi JNSF 2025
+                    Sumber Informasi Kompetisi JISF 2025
                   </label>
                   <select
                     type="text"
@@ -523,16 +535,16 @@ function IndonesiaOffline() {
                   >
                     <option value="">--Pilih Sumber Informasi--</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
-                    <option value="JNSF Instagram">JNSF Instagram</option>
+                    <option value="JISF Instagram">JISF Instagram</option>
                     <option value="Pembimbing/Sekolah">
                       Pembimbing/Sekolah
                     </option>
                     <option value="IYSA FaceBook">IYSA FaceBook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
                     <option value="IYSA Website">IYSA Website</option>
-                    <option value="JNSF Website">JNSF Website</option>
+                    <option value="JISF Website">JISF Website</option>
                     <option value="IYSA Email">IYSA Email</option>
-                    <option value="JNSF Email">JNSF Email</option>
+                    <option value="JISF Email">JISF Email</option>
                     <option value="Acara Sebelumnya">Acara Sebelumnya</option>
                     <option value="Lainnya">Lainnya</option>
                   </select>

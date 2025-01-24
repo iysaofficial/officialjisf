@@ -2,6 +2,8 @@ import Navigation from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer";
 
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 
 function IndonesiaOnline() {
   const [selectedMaxNamaLengkap, setselectedMaxNamaLengkap] = useState("");
@@ -12,6 +14,8 @@ function IndonesiaOnline() {
   const [categoryPrice, setCategoryPrice] = useState("");
   const [statusMessage, setStatusMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const navigate = useNavigate(); // React Router hook untuk navigasi
+
 
   const handleInputNameChange = (e) => {
     const { value } = e.target;
@@ -34,25 +38,34 @@ function IndonesiaOnline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "Social Science":
-        setCategoryPrice("Rp 950.000");
+        setCategoryPrice("RP 950.000");
         break;
       case "Life Sciences":
-        setCategoryPrice("Rp 950.000");
+        setCategoryPrice("RP 950.000");
         break;
       case "Environmental Science":
-        setCategoryPrice("Rp 950.000");
+        setCategoryPrice("RP 950.000");
         break;
       case "Innovation Science":
-        setCategoryPrice("Rp 950.000");
+        setCategoryPrice("RP 950.000");
         break;
       case "Engineering":
-        setCategoryPrice("Rp 950.000");
+        setCategoryPrice("RP 950.000");
         break;
       default:
         setCategoryPrice("");
         break;
     }
   };
+
+  useEffect(() => {
+    const termsAccepted = localStorage.getItem("termsAccepted");
+
+    if (!termsAccepted) {
+      alert("Anda harus menyetujui Syarat & Ketentuan terlebih dahulu.");
+      navigate("/homeindo"); // Navigasi ke halaman HomeIndo
+    }
+  }, [navigate]);
 
   useEffect(() => {
     const scriptURL =
@@ -76,7 +89,7 @@ function IndonesiaOnline() {
               setStatusMessage("Data berhasil dikirim!");
               form.reset(); // Reset form hanya jika pengiriman sukses
               setTimeout(() => {
-                window.location.href = "/thankyou"; // Redirect setelah 1 detik
+                window.location.href = "/thankyouindo"; // Redirect setelah 1 detik
               }, 1000);
             } else {
               setStatusMessage("Terjadi kesalahan saat mengirim data.");
@@ -107,7 +120,7 @@ function IndonesiaOnline() {
             <br />
             <br />
             <h4>
-              HALLO PESERTA JNSF 2025, Mohon perhatikan informasi berikut ini
+              HALLO PESERTA JISF 2025, Mohon perhatikan informasi berikut ini
               sebelum mengisi formulir pendaftaran :
             </h4>
             <br />
@@ -132,7 +145,7 @@ function IndonesiaOnline() {
             <br />
 
             <form name="regist-form">
-              <h1>BIODATA</h1>
+              <h1 className="text-sm md:text-lg lg:text-5xl">BIODATA</h1>
               <h1 className="garis-bawah"></h1>
               <div className="user-details">
                 <div className="input-box">
@@ -267,7 +280,7 @@ function IndonesiaOnline() {
 
               {/* DATA SEKOLAH START */}
               {/* DATA SEKOLAH START */}
-              <h1>DATA SEKOLAH</h1>
+              <h1 className="text-sm md:text-lg lg:text-5xl">DATA SEKOLAH</h1>
               <h1 className="garis-bawah"></h1>
               <div className="user-details">
                 <div className="input-box">
@@ -357,7 +370,7 @@ function IndonesiaOnline() {
 
               {/* DATA PEMBIMBING START */}
               {/* DATA PEMBIMBING START */}
-              <h1>DATA PEMBIMBING</h1>
+              <h1 className="text-sm md:text-lg lg:text-5xl">DATA PEMBIMBING</h1>
               <h1 className="garis-bawah"></h1>
               <div className="user-details">
                 <div class="input-box">
@@ -417,7 +430,7 @@ function IndonesiaOnline() {
               {/* DETAIL PROJECT START */}
               {/* DETAIL PROJECT START */}
               <div className="">
-                <h1>DETAIL PROYEK</h1>
+                <h1 className="text-sm md:text-lg lg:text-5xl">DETAIL PROYEK</h1>
                 <h1 className="garis-bawah"></h1>
               </div>
               <div className="user-details">
@@ -529,7 +542,7 @@ function IndonesiaOnline() {
               {/* GENERAL INFORMATION START */}
               {/* GENERAL INFORMATION START */}
               <div className="">
-                <h1>INFORMASI UMUM</h1>
+                <h1 className="text-sm md:text-lg lg:text-5xl">INFORMASI UMUM</h1>
                 <h1 className="garis-bawah"></h1>
               </div>
               <div className="user-details">
@@ -554,7 +567,7 @@ function IndonesiaOnline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    Sumber Informasi Kompetisi JNSF 2025
+                    Sumber Informasi Kompetisi JISF 2025
                   </label>
                   <select
                     type="text"
@@ -566,16 +579,16 @@ function IndonesiaOnline() {
                   >
                     <option value="">--Pilih Sumber Informasi--</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
-                    <option value="JNSF Instagram">JNSF Instagram</option>
+                    <option value="JISF Instagram">JISF Instagram</option>
                     <option value="Pembimbing/Sekolah">
                       Pembimbing/Sekolah
                     </option>
                     <option value="IYSA FaceBook">IYSA FaceBook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
                     <option value="IYSA Website">IYSA Website</option>
-                    <option value="JNSF Website">JNSF Website</option>
+                    <option value="JISF Website">JISF Website</option>
                     <option value="IYSA Email">IYSA Email</option>
-                    <option value="JNSF Email">JNSF Email</option>
+                    <option value="JISF Email">JISF Email</option>
                     <option value="Acara Sebelumnya">Acara Sebelumnya</option>
                     <option value="Lainnya">Lainnya</option>
                   </select>

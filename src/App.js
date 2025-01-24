@@ -38,7 +38,11 @@ import HomeRegist from './pages/registration/homeregist';
 import HomeIndo from './pages/registration/homeindo';
 import IndonesiaOffline from './pages/registration/indo-offline';
 import IndonesiaOnline from './pages/registration/indo-online';
-import Thankyou from './pages/thankyoupage';
+import HomeInter from './pages/registration/homeinter';
+import InternationalOffline from './pages/registration/inter-offline';
+import InternationalOnline from './pages/registration/inter-online';
+import Thankyouindo from './pages/thankyouindopage';
+import Thankyouinter from './pages/thankyouinterpage';
 
 
 function App() {
@@ -85,7 +89,11 @@ function App() {
             <Route path="/homeindo" element={<HomeIndo/>} />
             <Route path="/indooffline" element={<IndonesiaOffline/>} />
             <Route path="/indoonline" element={<IndonesiaOnline/>} />
-            <Route path="/thankyou" element={<Thankyou/>} />
+            <Route path="/homeinter" element={<HomeInter/>} />
+            <Route path="/interoffline" element={<InternationalOffline/>} />
+            <Route path="/interonline" element={<InternationalOnline/>} />
+            <Route path="/thankyouindo" element={<Thankyouindo/>} />
+            <Route path="/thankyouinter" element={<Thankyouinter/>} />
           </Routes>
         </ScrollToTop>
       </Router>
