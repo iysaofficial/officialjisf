@@ -396,6 +396,7 @@ export default function InternationalOnline() {
                       Senior High School
                     </option>
                     <option value="University">University</option>
+                    <option value="Teacher & PTK">Teacher & PTK</option>
                   </select>
                 </div>
                 <div class="input-box">
