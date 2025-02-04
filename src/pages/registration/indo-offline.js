@@ -447,13 +447,16 @@ function IndonesiaOffline() {
                   >
                     <option value="">--Pilih Kategori--</option>
                     <option value="Social Science">Social Science</option>
-                    <option value="Life Sciences">
-                      Life Sciences
+                    <option value="Life Sciences">Life Sciences</option>
+                    <option value="Environmental Science">
+                      Environmental Science
                     </option>
-                    <option value="Environmental Science">Environmental Science</option>
-                    <option value="Innovation Science">Innovation Science</option>
+                    <option value="Innovation Science">
+                      Innovation Science
+                    </option>
                     <option value="Engineering">Engineering</option>
                     <option value="Science in Islam">Science in Islam</option>
+                    <option value="Education/PTK">Education/PTK</option>
                   </select>
                 </div>
 

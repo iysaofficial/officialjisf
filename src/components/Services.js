@@ -130,6 +130,21 @@ const Services = () => {
                 </p>
               </div>
             </div>
+            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+              <div className="m-2 text-justify text-sm">
+                <img
+                  alt="card img"
+                  className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+                  src="./assets/logo/educasi.jpg"
+                />
+                <h2 className="font-semibold my-4 text-2xl text-center">
+                  Education/PTK
+                </h2>
+                <p className="text-md font-medium">
+                the profession of a professional who upholds education
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

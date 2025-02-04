@@ -513,6 +513,7 @@ export default function InternationalOnline() {
                     </option>
                     <option value="Engineering">Engineering</option>
                     <option value="Science in Islam">Science in Islam</option>
+                    <option value="Education/PTK">Education/PTK</option>
                   </select>
                 </div>
                 <div class="input-box">
