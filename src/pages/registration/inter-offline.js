@@ -41,7 +41,7 @@ export default function InternationalOffline() {
 
   useEffect(() => {
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbx2FJK2yzUqR1g5Te55YBoH8KXpnOgs6r0OfLiA2hnQqCcvsrg1FuFswiRtBPBpucz6wg/exec";
+      "/";
 
     const form = document.forms["regist-form"];
     let buttonCounter = 0;
