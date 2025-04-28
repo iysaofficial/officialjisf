@@ -37,6 +37,22 @@ const Certificatesupervisor = () => {
                     src="./assets/logo/new.jpg"
                   /> */}
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
+                    Certificate Supervisor 2025
+                  </h2>
+                  <a className="font-bold text-green-900">
+                    {/* Lokasi Venue: {" "}   */}
+                    <a href="https://drive.google.com/drive/u/0/folders/1YweGskV8c5BPEzGMDhWK1_xTo8vmrLOp" target="_blank">Click Here</a>
+                  </a>
+                </div>
+              </div>
+              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                <div className="m-2 text-justify text-sm">
+                  {/* <img
+                    alt="card img"
+                    className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+                    src="./assets/logo/new.jpg"
+                  /> */}
+                  <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     Certificate Supervisor 2024
                   </h2>
                   <a className="font-bold text-green-900">
