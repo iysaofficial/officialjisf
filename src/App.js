@@ -29,10 +29,12 @@ import OnlineUniv from './pages/listwinner/OnlineUniv';
 import Offline2024 from './pages/listwinner/Offline2024';
 import Online2024 from './pages/listwinner/Online2024';
 
-import { useDocTitle } from './components/CustomHook';
+import { useDocTitle } from './components/CustomHook';  
 import ScrollToTop from './components/ScrollToTop';
 import News2024 from './pages/berita/News2024';
 import Berita2024 from './pages/berita/berita2024/Berita2024';
+import Berita2025 from './pages/berita/berita2025/Berita2025';
+import MediaCoverage from './pages/MediaCoverage';
 
 import HomeRegist from './pages/registration/homeregist';
 import HomeIndo from './pages/registration/homeindo';
@@ -83,8 +85,10 @@ function App() {
             <Route path="/UniversitasOnline" element={<OnlineUniv/>} />
 
             <Route path="/CertificateSupervisor" element={<Certificatesupervisor/>} />
-            <Route path="/Mediacoverage" element={<News2024/>} />
+            <Route path="/Mediacoverage" element={<MediaCoverage/>} />
+            <Route path="/Berita" element={<News2024/>} />
             <Route path="/News2024" element={<Berita2024/>} />
+            <Route path="/News2025" element={<Berita2025/>} />
             <Route path="/homeregist" element={<HomeRegist/>} />
             <Route path="/homeindo" element={<HomeIndo/>} />
             <Route path="/indooffline" element={<IndonesiaOffline/>} />

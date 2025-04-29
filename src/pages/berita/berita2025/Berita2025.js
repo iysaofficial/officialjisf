@@ -1,12 +1,12 @@
 import React from "react";
-import NavBar from "../../components/Navbar/NavBar";
-import Footer from "../../components/Footer";
-import img from "../../images/web.svg";
-import img2 from "../../images/app.svg";
-import img3 from "../../images/hosting.svg";
-import img4 from "../../images/consultation.svg";
+import NavBar from "../../../components/Navbar/NavBar";
+import Footer from "../../../components/Footer";
+import img from "../../../images/web.svg";
+import img2 from "../../../images/app.svg";
+import img3 from "../../../images/hosting.svg";
+import img4 from "../../../images/consultation.svg";
 
-const News2024 = () => {
+const Berita2025 = () => {
   return (
     <>
       <div>
@@ -16,7 +16,7 @@ const News2024 = () => {
         <section data-aos="zoom-in-down mt-8">
           <div className="my-4 py-4">
             <h2 className="my-2 text-center text-3xl text-[#101084] uppercase font-bold">
-              News
+              News 2025
             </h2>
 
             <div className="flex justify-center">
@@ -31,33 +31,43 @@ const News2024 = () => {
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
               <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                 <div className="m-2 text-justify text-sm">
-                  {/* <img
+                  <img
                     alt="card img"
                     className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                    src="./assets/logo/new.jpg"
-                  /> */}
+                    src="./assets/logo/jisf1.jpg"
+                  />
                   <h2 className="font-semibold my-4 text-2xl text-center">
-                    News 2025
+                  Penelitian kurangi sampah makanan menerima Gold Medal pada JISF 2025
                   </h2>
                   <a className="font-bold">
                     {/* Lokasi Venue: {" "}   */}
-                    <a href="/News2025">Click Here</a>
+                    <a
+                      href="https://megapolitan.antaranews.com/berita/391153/penelitian-kurangi-sampah-makanan-menerima-gold-medal-pada-jisf-2025"
+                      target="_blank"
+                    >
+                      Click Here
+                    </a>
                   </a>
                 </div>
               </div>
+
               <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                 <div className="m-2 text-justify text-sm">
-                  {/* <img
+                  <img
                     alt="card img"
                     className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                    src="./assets/logo/new.jpg"
-                  /> */}
+                    src="./assets/logo/jisf2.jpg"
+                  />
                   <h2 className="font-semibold my-4 text-2xl text-center">
-                    News 2024
+                  MIN 9 Boyong Dua Medali Emas di Kompetisi JISF
                   </h2>
                   <a className="font-bold">
-                    {/* Lokasi Venue: {" "}   */}
-                    <a href="/News2024">Click Here</a>
+                    <a
+                      href="https://khazanah.republika.co.id/berita/svffry483/min-9-boyong-dua-medali-emas-di-kompetisi-jisf"
+                      target="_blank"
+                    >
+                      Click Here
+                    </a>
                   </a>
                 </div>
               </div>
@@ -169,4 +179,4 @@ const News2024 = () => {
   );
 };
 
-export default News2024;
+export default Berita2025;
