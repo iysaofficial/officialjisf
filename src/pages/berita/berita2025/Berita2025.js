@@ -40,7 +40,7 @@ const Berita2025 = () => {
                   Penelitian kurangi sampah makanan menerima Gold Medal pada JISF 2025
                   </h2>
                   <a className="font-bold">
-                    {/* Lokasi Venue: {" "}   */}
+                    
                     <a
                       href="https://megapolitan.antaranews.com/berita/391153/penelitian-kurangi-sampah-makanan-menerima-gold-medal-pada-jisf-2025"
                       target="_blank"
