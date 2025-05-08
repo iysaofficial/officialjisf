@@ -29,6 +29,16 @@ import OnlineUniv from './pages/listwinner/OnlineUniv';
 import Offline2024 from './pages/listwinner/Offline2024';
 import Online2024 from './pages/listwinner/Online2024';
 
+import Spesial2025 from './pages/listwinner2025/Spesial2025';
+import OfflineElement2025 from './pages/listwinner2025/OfflineElement2025';
+import OfflineSecond2025 from './pages/listwinner2025/OfflineSecond2025';
+import OfflineUniv2025 from './pages/listwinner2025/OfflineUniv2025';
+import OnlineElement2025 from './pages/listwinner2025/OnlineElement2025';
+import OnlineSecond2025 from './pages/listwinner2025/OnlineSecond2025';
+import OnlineUniv2025 from './pages/listwinner2025/OnlineUniv2025';
+import Offline2025 from './pages/listwinner2025/Offline2025';
+import Online2025 from './pages/listwinner2025/Online2025';
+
 import { useDocTitle } from './components/CustomHook';  
 import ScrollToTop from './components/ScrollToTop';
 import News2024 from './pages/berita/News2024';
@@ -45,6 +55,9 @@ import InternationalOffline from './pages/registration/inter-offline';
 import InternationalOnline from './pages/registration/inter-online';
 import Thankyouindo from './pages/thankyouindopage';
 import Thankyouinter from './pages/thankyouinterpage';
+
+import Aftereventpage from './pages/Afterevent/Aftereventpage';
+import Pressrelease2025 from './pages/Afterevent/Pressrelease2025';
 
 
 function App() {
@@ -84,6 +97,16 @@ function App() {
             <Route path="/SecondaryOnline" element={<OnlineSecond/>} />
             <Route path="/UniversitasOnline" element={<OnlineUniv/>} />
 
+            <Route path="/Winner2025" element={<Spesial2025 />} />
+            <Route path="/Offline2025" element={<Offline2025 />} />
+            <Route path="/Online2025" element={<Online2025 />} />
+            <Route path="/ElementaryOffline" element={<OfflineElement2025 />} />
+            <Route path="/SecondaryOffline" element={<OfflineSecond2025 />} />
+            <Route path="/UniversitasOffline" element={<OfflineUniv2025/>} />
+            <Route path="/ElementaryOnline" element={<OnlineElement2025/>} />
+            <Route path="/SecondaryOnline" element={<OnlineSecond2025/>} />
+            <Route path="/UniversitasOnline" element={<OnlineUniv2025/>} />
+
             <Route path="/CertificateSupervisor" element={<Certificatesupervisor/>} />
             <Route path="/Mediacoverage" element={<MediaCoverage/>} />
             <Route path="/Berita" element={<News2024/>} />
@@ -98,6 +121,9 @@ function App() {
             <Route path="/interonline" element={<InternationalOnline/>} />
             <Route path="/thankyouindo" element={<Thankyouindo/>} />
             <Route path="/thankyouinter" element={<Thankyouinter/>} />
+
+            <Route path="/Aftereventpage" element={<Aftereventpage/>} />
+            <Route path="/Pressrelease2025" element={<Pressrelease2025/>} />
           </Routes>
         </ScrollToTop>
       </Router>

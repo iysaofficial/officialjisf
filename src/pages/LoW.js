@@ -29,7 +29,7 @@ const LoW = () => {
 
           <div className="px-12" data-aos="fade-down" data-aos-delay="600">
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
-              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-white-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                 <div className="m-2 text-justify text-sm">
                   <img
                     alt="card img"
@@ -45,6 +45,23 @@ const LoW = () => {
                   </a>
                 </div>
               </div>
+              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-white-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                <div className="m-2 text-justify text-sm">
+                  <img
+                    alt="card img"
+                    className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+                    src="./assets/logo/new.jpg"
+                  />
+                  <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
+                    List of Winner 2025
+                  </h2>
+                  <a className="font-bold text-green-900">
+                    {/* Lokasi Venue: {" "}   */}
+                    <a href="/Winner2025">Click Here</a>
+                  </a>
+                </div>
+              </div>
+
 
               {/* <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                 <div className="m-2 text-justify text-sm">

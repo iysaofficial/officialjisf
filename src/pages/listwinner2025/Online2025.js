@@ -1,12 +1,12 @@
 import React from "react";
-import NavBar from "../components/Navbar/NavBar";
-import Footer from "../components/Footer";
-import img from "../images/web.svg";
-import img2 from "../images/app.svg";
-import img3 from "../images/hosting.svg";
-import img4 from "../images/consultation.svg";
+import NavBar from "../../components/Navbar/NavBar";
+import Footer from "../../components/Footer";
+import img from "../../images/web.svg";
+import img2 from "../../images/app.svg";
+import img3 from "../../images/hosting.svg";
+import img4 from "../../images/consultation.svg";
 
-const MediaCoverage = () => {
+const Online2025 = () => {
   return (
     <>
       <div>
@@ -15,12 +15,12 @@ const MediaCoverage = () => {
       <div id="services" className="bg-gray-100 py-12 mt-8">
         <section data-aos="zoom-in-down mt-8">
           <div className="my-4 py-4">
-            <h2 className="my-2 text-center text-3xl text-[#101084] uppercase font-bold">
-              Media Coverage
+            <h2 className="my-2 text-center text-3xl text-green-900 uppercase font-bold">
+              List of Winner
             </h2>
 
             <div className="flex justify-center">
-              <div className="w-24 border-b-4 border-[#101084]"></div>
+              <div className="w-24 border-b-4 border-green-900"></div>
             </div>
             {/* <h2 className="mt-4 mx-12 text-center text-xl lg:text-2xl font-semibold text-[#101084]">
               Ini adalah kategori dalam event JNSF.
@@ -29,22 +29,23 @@ const MediaCoverage = () => {
 
           <div className="px-12" data-aos="fade-down" data-aos-delay="600">
             <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
-              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                 <div className="m-2 text-justify text-sm">
                   {/* <img
                     alt="card img"
                     className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
                     src="./assets/logo/new.jpg"
                   /> */}
-                  <h2 className="font-semibold my-4 text-2xl text-center">
-                    Berita
+                  <h2 className="font-semibold my-4 text-2xl text-green-900 text-center">
+                    Guru
                   </h2>
-                  <a className="font-bold">
+                  <a className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
-                      href="/Berita"
+                      href="https://drive.google.com/file/d/1z8UhVgg-AihqOymXiCHIjZIUZgRWioaI/view?usp=sharing"
+                      target="_blank"
                     >
-                      Klik Disini
+                      Click Here
                     </a>
                   </a>
                 </div>
@@ -56,39 +57,85 @@ const MediaCoverage = () => {
                     className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
                     src="./assets/logo/new.jpg"
                   /> */}
-                  <h2 className="font-semibold my-4 text-2xl text-center">
-                   Press Release
+                  <h2 className="font-semibold my-4 text-2xl text-green-900 text-center">
+                    University
                   </h2>
-                  <a className="font-bold">
+                  <a className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
-                      href="/Aftereventpage"
+                      href="https://drive.google.com/file/d/1yn4WE-Znk4I7yWNvMsqyB-Y8_Mwkbec0/view?usp=sharing"
+                      target="_blank"
                     >
-                      Klik Disini
+                      Click Here
                     </a>
                   </a>
                 </div>
               </div>
 
-
-
-              {/* <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                 <div className="m-2 text-justify text-sm">
-                  <img
+                  {/* <img
+                    alt="card img"
+                    className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+                    src="./assets/logo/life.png"
+                  /> */}
+                  <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
+                    Senior High School
+                  </h2>
+                  <a className="font-bold text-green-900">
+                    {/* Lokasi Venue: {" "}   */}
+                    <a
+                      href="https://drive.google.com/file/d/1bswvAtmHebvzdug7GzR4zPEw1eNWTGHo/view?usp=sharing"
+                      target="_blank"
+                    >
+                      Click Here
+                    </a>
+                  </a>
+                </div>
+              </div>
+
+              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                <div className="m-2 text-justify text-sm">
+                  {/* <img
                     alt="card img"
                     className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
                     src="./assets/logo/env.png"
-                  />
-                  <h2 className="font-semibold my-4 text-2xl text-center ">
-                    Environmental Science
+                  /> */}
+                  <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
+                    Junior High School
                   </h2>
-                  <p className="text-md font-medium">
-                    Selain berbagai aspek ilmu alam dan sosial, pelajar juga
-                    didorong untuk mengeksplorasi pendekatan psikologis,
-                    pembuatan kebijakan, dan studi ilmiah
-                  </p>
+                  <a className="font-bold text-green-900">
+                    {/* Lokasi Venue: {" "}   */}
+                    <a
+                      href="https://drive.google.com/file/d/1ZUuQ564B-cC5NFWvYTjkQ5eKq4VkTei7/view?usp=sharing"
+                      target="_blank"
+                    >
+                      Click Here
+                    </a>
+                  </a>
                 </div>
-              </div> */}
+              </div>
+              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                <div className="m-2 text-justify text-sm">
+                  {/* <img
+                    alt="card img"
+                    className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
+                    src="./assets/logo/env.png"
+                  /> */}
+                  <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
+                    Elementary
+                  </h2>
+                  <a className="font-bold text-green-900">
+                    {/* Lokasi Venue: {" "}   */}
+                    <a
+                      href="https://drive.google.com/file/d/1s1K65uWOTHUi7ZlBwUPnfT51gj5wm39l/view?usp=sharing"
+                      target="_blank"
+                    >
+                      Click Here
+                    </a>
+                  </a>
+                </div>
+              </div>
 
               {/* <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                 <div className="m-2 text-justify text-sm">
@@ -161,4 +208,4 @@ const MediaCoverage = () => {
   );
 };
 
-export default MediaCoverage;
+export default Online2025;
