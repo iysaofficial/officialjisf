@@ -59,6 +59,9 @@ import Thankyouinter from './pages/thankyouinterpage';
 import Aftereventpage from './pages/Afterevent/Aftereventpage';
 import Pressrelease2025 from './pages/Afterevent/Pressrelease2025';
 
+import Report from './pages/Reportjisf/Report';
+import Report2025 from './pages/Reportjisf/Report2025';
+
 
 function App() {
   useEffect(() => {
@@ -124,6 +127,9 @@ function App() {
 
             <Route path="/Aftereventpage" element={<Aftereventpage/>} />
             <Route path="/Pressrelease2025" element={<Pressrelease2025/>} />
+
+            <Route path="/Report" element={<Report/>} />
+            <Route path="/Report2025" element={<Report2025/>} />
           </Routes>
         </ScrollToTop>
       </Router>
