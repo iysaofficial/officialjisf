@@ -42,7 +42,7 @@ const Online2025 = () => {
                   <a className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
-                      href="https://drive.google.com/file/d/1cuo2FSJm95VzkBRc6UYa8B087vIF7TqI/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1z8UhVgg-AihqOymXiCHIjZIUZgRWioaI/view?usp=sharing"
                       target="_blank"
                     >
                       Click Here
@@ -63,7 +63,7 @@ const Online2025 = () => {
                   <a className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
-                      href="https://drive.google.com/file/d/14WUNuY6PNnx3fhvTBtua3IqDQSeFeS44/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1yn4WE-Znk4I7yWNvMsqyB-Y8_Mwkbec0/view?usp=sharing"
                       target="_blank"
                     >
                       Click Here  
@@ -85,7 +85,7 @@ const Online2025 = () => {
                   <a className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
-                      href="https://drive.google.com/file/d/1-GgOzuNJFEHjpunxgBuo8KxAYW7UzcOw/view?usp=drive_link"
+                      href="https://drive.google.com/file/d/1bswvAtmHebvzdug7GzR4zPEw1eNWTGHo/view?usp=sharing  "
                       target="_blank"
                     >
                       Click Here
@@ -107,7 +107,7 @@ const Online2025 = () => {
                   <a className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
-                      href="https://drive.google.com/file/d/18CsGAlcmUJItBui8OEfgbnQcf9bImvm-/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1ZUuQ564B-cC5NFWvYTjkQ5eKq4VkTei7/view?usp=sharing"
                       target="_blank"
                     >
                       Click Here
@@ -128,7 +128,7 @@ const Online2025 = () => {
                   <a className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
-                      href="https://drive.google.com/file/d/1whBncIz6g8qARLszRjXV3vrkplqAkBDo/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1s1K65uWOTHUi7ZlBwUPnfT51gj5wm39l/view?usp=sharing"
                       target="_blank"
                     >
                       Click Here
