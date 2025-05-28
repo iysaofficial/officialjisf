@@ -32,7 +32,7 @@ const NavLinks = () => {
         List of Winner
       </HashLink>
       <a
-        href="https://drive.google.com/drive/folders/1IoMBKIY6q-_-gKpZvO5TIWRcO-6K02He?usp=drive_link"
+        href="/Kurasipage"
         target="_blank"
         className="px-4 font-extrabold text-gray-500 hover:text-green-900"
         smooth

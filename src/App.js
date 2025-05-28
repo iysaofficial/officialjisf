@@ -62,6 +62,8 @@ import Pressrelease2025 from './pages/Afterevent/Pressrelease2025';
 import Report from './pages/Reportjisf/Report';
 import Report2025 from './pages/Reportjisf/Report2025';
 
+import Kurasipage from "./pages/Kurasi/Kurasipage";
+
 
 function App() {
   useEffect(() => {
@@ -130,6 +132,8 @@ function App() {
 
             <Route path="/Report" element={<Report/>} />
             <Route path="/Report2025" element={<Report2025/>} />
+
+            <Route path="/Kurasipage" element={<Kurasipage />} />
           </Routes>
         </ScrollToTop>
       </Router>
