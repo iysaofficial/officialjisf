@@ -37,7 +37,7 @@ const NavLinks = () => {
         className="px-4 font-extrabold text-gray-500 hover:text-green-900"
         smooth
       >
-        Curasi
+        Curation
       </a>
       <HashLink
         className="px-4 font-extrabold text-gray-500 hover:text-green-900"

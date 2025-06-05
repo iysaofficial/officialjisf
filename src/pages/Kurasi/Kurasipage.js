@@ -37,7 +37,7 @@ const Kurasipage = () => {
                     src="./assets/logo/new.jpg"
                   /> */}
                   <h2 className="font-semibold my-4 text-2xl text-center">
-                    Curasi 2024
+                    Curation 2024
                   </h2>
                   <a className="font-bold">
                     {/* Lokasi Venue: {" "}   */}
@@ -59,7 +59,7 @@ const Kurasipage = () => {
                     src="./assets/logo/env.png"
                   /> */}
                   <h2 className="font-semibold my-4 text-2xl text-center ">
-                    Curasi 2025
+                    Curation 2025
                   </h2>
                   <a className="font-bold">
                     {/* Lokasi Venue: {" "}   */}
