@@ -16,7 +16,7 @@ const Kurasipage = () => {
         <section data-aos="zoom-in-down mt-8">
           <div className="my-4 py-4">
             <h2 className="my-2 text-center text-3xl text-[#101084] uppercase font-bold">
-              CURASI
+              CURATION
             </h2>
 
             <div className="flex justify-center">
