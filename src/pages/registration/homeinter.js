@@ -1,7 +1,12 @@
 import Navigation from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer";
-import { internationalOfflineTerms, internationalOnlineTerms } from "../../pages/data/terms";
+import {
+  internationalOfflineTerms,
+  internationalOnlineTerms,
+} from "../../pages/data/terms";
 import { useState, useEffect } from "react";
+import "./registration.css";
+
 
 function HomeInter() {
   const [showModal, setShowModal] = useState(false);
@@ -24,7 +29,7 @@ function HomeInter() {
       alert("Please agree to the Terms & Conditions to proceed.");
     }
   };
-  
+
   useEffect(() => {
     const hasAcceptedTerms = sessionStorage.getItem("termsAccepted");
     if (hasAcceptedTerms === "true") {
@@ -40,30 +45,29 @@ function HomeInter() {
           <div className="wrapper">
             <div className="text-center">
               <h1 className="mx-auto text-sm md:text-lg lg:text-5xl">
-                REGISTRATION FORM FOR INTERNATIONAL PARTICIPANTS
+                REGISTRATION FORM FOR INTERNATIONAL CITIZEN
               </h1>
               <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
-                Choose Categories Competition for Registration JISF 2025
+                Choose Categories Competition for Registration JISF 2026
               </h3>
             </div>
           </div>
           <div className="link-web mx-auto text-center">
             <a
-              className="btn btn-action text-center me-lg-5"
+              className="btn btn-custom text-center me-lg-5"
               onClick={() =>
-                handleOpenModal("/interonline", internationalOnlineTerms)
+                handleOpenModal("/inter-online", internationalOnlineTerms)
               }
             >
-              Online Competition <i className="fa-solid fa-earth-americas"></i>
+              Online Competition<i className="fa-solid fa-earth-americas"></i>
             </a>
             <a
-              className="btn btn-action text-center me-lg-5"
+              className="btn btn-custom text-center me-lg-5"
               onClick={() =>
-                handleOpenModal("/interoffline", internationalOfflineTerms)
+                handleOpenModal("/inter-offline", internationalOfflineTerms)
               }
             >
-              Offline Competition{" "}
-              <i className="fa-solid fa-earth-americas"></i>
+              Offline Competition<i className="fa-solid fa-earth-americas"></i>
             </a>
           </div>
         </div>
@@ -86,12 +90,12 @@ function HomeInter() {
             </div>
             <div className="modal-actions">
               <button
-                className="btn btn-secondary"
+                className="btn btn-custom"
                 onClick={() => setShowModal(false)}
               >
                 Cancel
               </button>
-              <button className="btn btn-primary" onClick={handleAccept}>
+              <button className="btn btn-custom" onClick={handleAccept}>
                 Accept & Proceed
               </button>
             </div>

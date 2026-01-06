@@ -1,10 +1,11 @@
 import Navigation from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer";
+import "./registration.css";
 
 function HomeRegist() {
   return (
     <>
-      <Navigation />
+    <Navigation />
       <section className="homeregist-section">
         <div>
           <div className="wrapper">
@@ -13,18 +14,22 @@ function HomeRegist() {
                 REGISTRATION FORM
               </h1>
               <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
-                Choose Categories Participant for Registration JISF
-                2025
+                Choose Your Citizenship Category for Registration JISF 2026
               </h3>
             </div>
           </div>
           <div className="link-web mx-auto text-center">
-            <a href="/" className="btn btn-action text-center me-lg-5">
-              Close Regist{" "}
-              <i className="fa-solid fa-earth-americas"></i>
+            <a
+              href="/homeindo"
+              className="btn btn-custom text-center me-lg-5 m-2"
+            >
+              INDONESIAN CITIZEN<i className="fa-solid fa-earth-americas"></i>
             </a>
-            <a href="/" className="btn btn-action text-center me-lg-5">
-              Close Regist{" "}
+            <a
+              href="/homeinter"
+              className="btn btn-custom text-center me-lg-5 m-2"
+            >
+              INTERNATIONAL CITIZEN{" "}
               <i className="fa-solid fa-earth-americas"></i>
             </a>
           </div>

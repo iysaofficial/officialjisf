@@ -45,11 +45,11 @@ const Clients = () => {
               style={clientImage2}
               className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100"
             >
-              <img src="./assets/logo/LOGOKEMENAG.png" alt="client" />
+              <img src="./assets/logo/i3l.WebP" alt="client" />
             </div>
           </div>
         </div>
-        <div className="my-4 py-4">
+        {/* <div className="my-4 py-4">
           <h2 className="my-2 text-center text-3xl text-[#101084] uppercase font-bold">
             Didukung Oleh
           </h2>
@@ -69,7 +69,7 @@ const Clients = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );

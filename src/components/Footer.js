@@ -12,13 +12,6 @@ const Footer = () => {
             {/* 1st block */}
             <div className="col-span-12 lg:col-span-4">
               <div className="border-green-900 p-10 bg-gray-100 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
-                {/* <h3 className="font-bold text-4xl mb-4">MLD</h3>
-                            <div className='text-md font-medium text-gray-600'>
-                                <h5>Molad e Konsult</h5>
-                                <p>Ilo Awela,</p>
-                                <p>Ota,</p>
-                                <p>Ogun State.</p>
-                            </div> */}
                 <img src="./assets/logo/jisf.png" />
               </div>
             </div>
@@ -82,11 +75,11 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                   <a
-                    href="https://wa.me/+6281770914129"
+                    href="https://wa.me/+6288213248890"
                     target="_blank"
                     className="text-[#008000] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
-                    +6281770914129
+                    +6288213248890
                   </a>
                 </li>
               </ul>

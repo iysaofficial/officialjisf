@@ -10,7 +10,6 @@ import {
 // All pages
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import DemoProduct from './pages/DemoProduct';
 import Faq from './pages/Faq';
 import LoW from './pages/LoW';
 
@@ -53,15 +52,13 @@ import IndonesiaOnline from './pages/registration/indo-online';
 import HomeInter from './pages/registration/homeinter';
 import InternationalOffline from './pages/registration/inter-offline';
 import InternationalOnline from './pages/registration/inter-online';
-import Thankyouindo from './pages/thankyouindopage';
-import Thankyouinter from './pages/thankyouinterpage';
+import Thankyouinter from './pages/registration/thankyouinterpage';
 
 import Aftereventpage from './pages/Afterevent/Aftereventpage';
 import Pressrelease2025 from './pages/Afterevent/Pressrelease2025';
 
 import Report from './pages/Reportjisf/Report';
 import Report2025 from './pages/Reportjisf/Report2025';
-
 import Kurasipage from "./pages/Kurasi/Kurasipage";
 
 
@@ -89,7 +86,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/get-demo" element={<DemoProduct />} />
             <Route path="/Faq" element={<Faq />} />
             <Route path="/ListofWinner" element={<LoW />} />
             <Route path="/Winner2024" element={<Spesial />} />
@@ -119,12 +115,11 @@ function App() {
             <Route path="/News2025" element={<Berita2025/>} />
             <Route path="/homeregist" element={<HomeRegist/>} />
             <Route path="/homeindo" element={<HomeIndo/>} />
-            <Route path="/indooffline" element={<IndonesiaOffline/>} />
-            <Route path="/indoonline" element={<IndonesiaOnline/>} />
+            <Route path="/indo-offline" element={<IndonesiaOffline/>} />
+            <Route path="/indo-online" element={<IndonesiaOnline/>} />
             <Route path="/homeinter" element={<HomeInter/>} />
-            <Route path="/interoffline" element={<InternationalOffline/>} />
-            <Route path="/interonline" element={<InternationalOnline/>} />
-            <Route path="/thankyouindo" element={<Thankyouindo/>} />
+            <Route path="/inter-offline" element={<InternationalOffline/>} />
+            <Route path="/inter-online" element={<InternationalOnline/>} />
             <Route path="/thankyouinter" element={<Thankyouinter/>} />
 
             <Route path="/Aftereventpage" element={<Aftereventpage/>} />

@@ -2,6 +2,7 @@ import Navigation from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer";
 import { indonesiaOnlineTerms, indonesiaOfflineTerms } from "../../pages/data/terms";
 import { useState, useEffect } from "react";
+import "./registration.css";
 
 
 function HomeIndo() {
@@ -9,7 +10,6 @@ function HomeIndo() {
   const [termsAccepted, setTermsAccepted] = useState(false);
   const [redirectLink, setRedirectLink] = useState("");
   const [termsContent, setTermsContent] = useState("");
-
   const handleOpenModal = (link, terms) => {
     setRedirectLink(link); // Set link tujuan redirect
     setTermsContent(terms); // Set isi terms sesuai pilihan
@@ -22,10 +22,10 @@ function HomeIndo() {
       setShowModal(false);
       window.location.href = redirectLink;
     } else {
-      alert("Harap setujui Syarat & Ketentuan untuk melanjutkan.");
+      alert("Please agree to the Terms & Conditions to proceed.");
     }
   };
-  
+
   useEffect(() => {
     const hasAcceptedTerms = sessionStorage.getItem("termsAccepted");
     if (hasAcceptedTerms === "true") {
@@ -35,31 +35,41 @@ function HomeIndo() {
 
   return (
     <>
-      <Navigation />
+    <Navigation />
       <section className="homeregist-section">
         <div>
           <div className="wrapper">
             <div className="text-center">
               <h1 className="mx-auto text-sm md:text-lg lg:text-5xl">
-                FORMULIR REGISTRASI
+                REGISTRATION FORM FOR INDONESIAN CITIZEN
               </h1>
               <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
-                Pilih Kategori Kompetisi untuk Registrasi JISF 2025
+                Choose Categories Competition for Registration JISF 2026
               </h3>
             </div>
           </div>
-          <div className="link-web mx-auto text-center">
+          <div className="link-web mx-auto text-center m-5">
             <a
-              className="btn btn-action text-center me-lg-5 "
-              onClick={() => handleOpenModal("/indoonline", indonesiaOnlineTerms)}
+              className="btn btn-custom text-center m-5"
+              onClick={() =>
+                handleOpenModal(
+                  "/indo-online",
+                  indonesiaOnlineTerms
+                )
+              }
             >
-              Kompetisi Online<i className="fa-solid fa-earth-americas"></i>
+              Online Competition<i className="fa-solid fa-earth-americas"></i>
             </a>
             <a
-              className="btn btn-action text-center me-lg-5 "
-              onClick={() => handleOpenModal("/indooffline", indonesiaOfflineTerms)}
+              className="btn btn-custom text-center"
+              onClick={() =>
+                handleOpenModal(
+                  "/indo-offline",
+                  indonesiaOfflineTerms
+                )
+              }
             >
-              Kompetisi Offline<i className="fa-solid fa-earth-americas"></i>
+              Offline Competition<i className="fa-solid fa-earth-americas"></i>
             </a>
           </div>
         </div>
@@ -69,26 +79,26 @@ function HomeIndo() {
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <h2 className="text-4xl">Syarat & Ketentuan</h2>
-            <div>{termsContent}</div> {/* Isi dinamis */}
-            <div className="checkbox mt-2">
+            <h2 className="text-4xl">Terms & Conditions</h2>
+            <div className="m-2">{termsContent}</div> {/* Isi dinamis */}
+            <div className="checkbox">
               <input
                 type="checkbox"
                 id="terms"
                 checked={termsAccepted}
                 onChange={(e) => setTermsAccepted(e.target.checked)}
               />
-              <label htmlFor="terms"> Saya menyetujui Syarat & Ketentuan</label>
+              <label htmlFor="terms"> I agree to the Terms & Conditions</label>
             </div>
             <div className="modal-actions">
               <button
-                className="btn btn-secondary"
+                className="btn btn-custom"
                 onClick={() => setShowModal(false)}
               >
-                Kembali
+                Cancel
               </button>
-              <button className="btn btn-primary" onClick={handleAccept}>
-                Terima & Proses
+              <button className="btn btn-custom" onClick={handleAccept}>
+                Accept & Proceed
               </button>
             </div>
           </div>
