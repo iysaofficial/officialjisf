@@ -50,7 +50,7 @@ export const indonesiaOfflineTerms = (
         Participants are required to make an A0-sized poster and bring the product and poster to the judging session.
       </li>
       <li>
-        Pemberian penghargaan kepada peserta akan dilakukan sesuai dengan urutan yang telah ditetapkan dalam susunan acara (peserta tidak diperkenankan untuk meminta award sebelum gilirannya).
+        Awards will be presented to participants in the order specified in the program schedule (participants are not permitted to request their award before their turn).
       </li>
       <li>
         Participants are required to attend all activities according to the schedule prepared by the organizing committee.
