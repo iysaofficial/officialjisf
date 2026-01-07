@@ -6,18 +6,16 @@ export const indonesiaOnlineTerms = (
     </h5>
     <ul>
       <li>
-        Participants who do not submit the required documents (extended
-        abstract, PowerPoint) after two reminders will be considered to have
-        withdrawn automatically.
+        Please be advised that all data submitted by participants cannot be modified after the payment deadline. Therefore, participants are required to carefully review their Letter of Acceptance (LoA) and registration information prior to submission to ensure that all details provided are accurate, complete, and correct.
       </li>
       <li>
-        Participants must use a title and extended abstract that match the
-        selected category. (International participants must use English for all
-        required documents.)
+        Participants who do not submit the required documents (Full Paper) by the specified deadline will not receive a document score and will only receive a score during the live judging session.
       </li>
       <li>
-        The committee’s decision on this matter is final and cannot be
-        contested.
+        Participants must use titles and full papers that are appropriate for the category they are participating in. (For participants participating in international events, English must be used for all requirements.)
+      </li>
+      <li>
+        The committee's decision on this matter is final and cannot be contested.
       </li>
     </ul>
     <p className="text-align">
@@ -40,38 +38,28 @@ export const indonesiaOfflineTerms = (
     </h5>
     <ul>
       <li>
-        Participants who do not submit the required documents (extended
-        abstract, poster) after two reminders will be considered to have
-        withdrawn automatically.
+        Please be advised that all data submitted by participants cannot be modified after the payment deadline. Therefore, participants are required to carefully review their Letter of Acceptance (LoA) and registration information prior to submission to ensure that all details provided are accurate, complete, and correct.
       </li>
       <li>
-        Participants must use a title and extended abstract that match the
-        selected category. (International participants must use English for all
-        requirements.)
+        Participants who do not submit the required documents (Full Paper) by the specified deadline will not receive a document score and will only receive a score during the live judging session.
       </li>
       <li>
-        Participants are required to create a poster in A0 size, bring their
-        product, and also provide a paper/extended abstract (in hard copy)
-        during the judging session.
+        Participants must use titles and full papers that are appropriate for the category they are participating in. (For participants participating in international events, English must be used for all requirements.)
       </li>
       <li>
-        Awards will be presented to participants according to the sequence set
-        in the event schedule (participants are not allowed to request their
-        award before their turn).
+        Participants are required to make an A0-sized poster and bring the product and poster to the judging session.
       </li>
       <li>
-        Participants are required to attend the entire event series according to
-        the schedule prepared by the organizing committee.
+        Pemberian penghargaan kepada peserta akan dilakukan sesuai dengan urutan yang telah ditetapkan dalam susunan acara (peserta tidak diperkenankan untuk meminta award sebelum gilirannya).
       </li>
       <li>
-        For offline participants eligible for awards such as Best Booth, Best
-        Poster, Best Presentation, Best Project, cash prizes, Semi Grand Award,
-        and Grand Award but are unable to attend the awarding ceremony, the
-        respective prize will be forfeited.
+        Participants are required to attend all activities according to the schedule prepared by the organizing committee.
       </li>
       <li>
-        The committee’s decision on this matter is final and cannot be
-        contested.
+        For offline participants who are entitled to the Best Booth, Best Poster, Best Presentation, Best Project, cash prize, semi-grand award, and grand award but are unable to attend the award ceremony, the prizes in question will be forfeited.
+      </li>
+      <li>
+        The committee's decision on this matter is final and cannot be contested.
       </li>
     </ul>
     <p className="text-align">
