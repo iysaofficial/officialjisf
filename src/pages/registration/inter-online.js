@@ -463,9 +463,6 @@ export default function InternationalOnline() {
                     <option value="Elementary">Elementary</option>
                     <option value="Secondary">Secondary</option>
                     <option value="University">University</option>
-                    <option value="Teacher or Lecturer">
-                      Teacher or Lecturer
-                    </option>
                   </select>
                 </div>
                 <div className="input-box">
