@@ -1,10 +1,6 @@
 import React from "react";
 import NavBar from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer";
-import img from "../../images/web.svg";
-import img2 from "../../images/app.svg";
-import img3 from "../../images/hosting.svg";
-import img4 from "../../images/consultation.svg";
 
 const Spesial = () => {
   return (
@@ -39,15 +35,16 @@ const Spesial = () => {
                   <h2 className="font-semibold my-4 text-2xl text-green-900 text-center">
                     Spesial Award
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/file/d/1Qz-zfYSts8XidL55-a9AVzI3rApb8GwX/view?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 
@@ -61,14 +58,14 @@ const Spesial = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     JISF Offline
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="/Offline2024"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 
@@ -82,14 +79,14 @@ const Spesial = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     JISF Online
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="/Online2024"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 

@@ -1,10 +1,6 @@
 import React from "react";
 import NavBar from "../../../components/Navbar/NavBar";
 import Footer from "../../../components/Footer";
-import img from "../../../images/web.svg";
-import img2 from "../../../images/app.svg";
-import img3 from "../../../images/hosting.svg";
-import img4 from "../../../images/consultation.svg";
 
 const Berita2024 = () => {
   return (
@@ -39,10 +35,10 @@ const Berita2024 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                   Tiga Event Besar dari IYSA, Diikuti Berbagai Negara
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
-                    <a href="https://jabaran.id/tiga-event-besar-dari-iysa-diikuti-berbagai-negara/" target="_blank">Click Here</a>
-                  </a>
+                    <a href="https://jabaran.id/tiga-event-besar-dari-iysa-diikuti-berbagai-negara/" target="_blank" rel="noopener noreferrer">Click Here</a>
+                  </p>
                 </div>
               </div>
               <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
@@ -55,10 +51,10 @@ const Berita2024 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                   SMPN 1 Ampana Kota, Ikuti Ajang IYSA, JNSF, JISF dan WECC
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
-                    <a href="https://mercusuar.web.id/touna/smpn-1-ampana-kota-ikuti-ajang-iysa-jnsf-jisf-dan-wecc/" target="_blank">Click Here</a>
-                  </a>
+                    <a href="https://mercusuar.web.id/touna/smpn-1-ampana-kota-ikuti-ajang-iysa-jnsf-jisf-dan-wecc/" target="_blank" rel="noopener noreferrer">Click Here</a>
+                  </p>
                 </div>
               </div>
 

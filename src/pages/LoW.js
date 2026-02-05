@@ -1,10 +1,6 @@
 import React from "react";
 import NavBar from "../components/Navbar/NavBar";
 import Footer from "../components/Footer";
-import img from "../images/web.svg";
-import img2 from "../images/app.svg";
-import img3 from "../images/hosting.svg";
-import img4 from "../images/consultation.svg";
 
 const LoW = () => {
   return (
@@ -39,10 +35,10 @@ const LoW = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     List of Winner 2024
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a href="/Winner2024">Click Here</a>
-                  </a>
+                  </p>
                 </div>
               </div>
               <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-white-500 hover:text-white rounded-lg shadow-2xl p-3 group">
@@ -55,10 +51,10 @@ const LoW = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     List of Winner 2025
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a href="/Winner2025">Click Here</a>
-                  </a>
+                  </p>
                 </div>
               </div>
 

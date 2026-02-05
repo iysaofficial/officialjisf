@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar/NavBar';
-import heroImg from '../images/web-dev.svg';
 
 const Hero = () => {
     return (
@@ -29,7 +27,7 @@ const Hero = () => {
                                     Open Registration 2026
                                     <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/sv" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                 </a>
-                                <a href='https://drive.google.com/file/d/1y604pWO2S9w76utVS93h9qIkQZBqXAw5/view?usp=sharing' target='_blank' className="text-white bg-green-900 hover:bg-green-700 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
+                                <a href='https://drive.google.com/file/d/1y604pWO2S9w76utVS93h9qIkQZBqXAw5/view?usp=sharing' target='_blank' rel="noopener noreferrer" className="text-white bg-green-900 hover:bg-green-700 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
                                     Guide Book
                                     <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/sv" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                 </a>

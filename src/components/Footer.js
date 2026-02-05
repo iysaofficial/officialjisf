@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
@@ -12,7 +11,7 @@ const Footer = () => {
             {/* 1st block */}
             <div className="col-span-12 lg:col-span-4">
               <div className="border-green-900 p-10 bg-gray-100 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
-                <img src="./assets/logo/jisf.png" />
+                <img src="./assets/logo/jisf.png" alt="JISF Logo" />
               </div>
             </div>
 
@@ -59,6 +58,7 @@ const Footer = () => {
                   <a
                     href="https://maps.app.goo.gl/mXBBKFZt5FrXxsmf9"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-[#008000] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     Jl. Kemang No. 63 RT 03 RW 06
@@ -68,6 +68,7 @@ const Footer = () => {
                   <a
                     href="mailto:jakartascience.jisf@gmail.com"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-[#008000] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     jakartascience.jisf@gmail.com
@@ -77,6 +78,7 @@ const Footer = () => {
                   <a
                     href="https://wa.me/+6288213248890"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-[#008000] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     +6288213248890
@@ -98,6 +100,7 @@ const Footer = () => {
                     <a
                       href="https://www.instagram.com/iysa_official/?hl=id"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="flex justify-center items-center text-green-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Instagram"
                     >
@@ -115,6 +118,7 @@ const Footer = () => {
                     <a
                       href="https://www.facebook.com/people/Indonesia-Young-scientist-Association/100063979907207/"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="flex justify-center items-center text-green-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Facebook"
                     >
@@ -131,6 +135,7 @@ const Footer = () => {
                     <a
                       href="wa.me/6281770914129"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="flex justify-center items-center text-green-900 hover:text-gray-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Whatsapp"
                     >
@@ -147,6 +152,7 @@ const Footer = () => {
                     <a
                       href="https://www.youtube.com/@IYSAOfficial"
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="flex justify-center items-center text-green-900 hover:text-gray-500 hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                       aria-label="Youtube"
                     >

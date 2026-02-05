@@ -1,10 +1,6 @@
 import React from "react";
 import NavBar from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer";
-import img from "../../images/web.svg";
-import img2 from "../../images/app.svg";
-import img3 from "../../images/hosting.svg";
-import img4 from "../../images/consultation.svg";
 
 const Online2025 = () => {
   return (
@@ -39,15 +35,16 @@ const Online2025 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-green-900 text-center">
                     Guru
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/file/d/1z8UhVgg-AihqOymXiCHIjZIUZgRWioaI/view?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
               <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
@@ -60,15 +57,16 @@ const Online2025 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-green-900 text-center">
                     University
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/file/d/1yn4WE-Znk4I7yWNvMsqyB-Y8_Mwkbec0/view?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      Click Here  
+                      Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 
@@ -82,15 +80,16 @@ const Online2025 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     Senior High School
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/file/d/1bswvAtmHebvzdug7GzR4zPEw1eNWTGHo/view?usp=sharing  "
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 
@@ -104,15 +103,16 @@ const Online2025 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     Junior High School
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/file/d/1ZUuQ564B-cC5NFWvYTjkQ5eKq4VkTei7/view?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
               <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
@@ -125,15 +125,16 @@ const Online2025 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     Elementary
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/file/d/1s1K65uWOTHUi7ZlBwUPnfT51gj5wm39l/view?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 

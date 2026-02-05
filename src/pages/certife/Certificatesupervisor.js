@@ -1,10 +1,6 @@
 import React from "react";
 import NavBar from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer";
-import img from "../../images/web.svg";
-import img2 from "../../images/app.svg";
-import img3 from "../../images/hosting.svg";
-import img4 from "../../images/consultation.svg";
 
 const Certificatesupervisor = () => {
   return (
@@ -39,10 +35,10 @@ const Certificatesupervisor = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     Certificate Supervisor 2025
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
-                    <a href="https://drive.google.com/drive/u/0/folders/1YweGskV8c5BPEzGMDhWK1_xTo8vmrLOp" target="_blank">Click Here</a>
-                  </a>
+                    <a href="https://drive.google.com/drive/u/0/folders/1YweGskV8c5BPEzGMDhWK1_xTo8vmrLOp" target="_blank" rel="noopener noreferrer">Click Here</a>
+                  </p>
                 </div>
               </div>
               <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
@@ -55,10 +51,10 @@ const Certificatesupervisor = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     Certificate Supervisor 2024
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
-                    <a href="https://drive.google.com/drive/folders/19d4YN2SvYrLFPFw7Ur9YlPttmrpP_b_r?usp=drive_link" target="_blank">Click Here</a>
-                  </a>
+                    <a href="https://drive.google.com/drive/folders/19d4YN2SvYrLFPFw7Ur9YlPttmrpP_b_r?usp=drive_link" target="_blank" rel="noopener noreferrer">Click Here</a>
+                  </p>
                 </div>
               </div>
 

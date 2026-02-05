@@ -1,10 +1,6 @@
 import React from "react";
 import NavBar from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer";
-import img from "../../images/web.svg";
-import img2 from "../../images/app.svg";
-import img3 from "../../images/hosting.svg";
-import img4 from "../../images/consultation.svg";
 
 const Spesial = () => {
   return (
@@ -39,15 +35,16 @@ const Spesial = () => {
                   <h2 className="font-semibold my-4 text-2xl text-green-900 text-center">
                     Spesial Award Offline
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/file/d/1KU0yvwfLU_sA1adHpmW1nj3dRvd2cvrM/view?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
               <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
@@ -60,15 +57,16 @@ const Spesial = () => {
                   <h2 className="font-semibold my-4 text-2xl text-green-900 text-center">
                     Spesial Award Online
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/file/d/1A5U67cfKahjAZfRi16iYjkkfrqW0lOKc/view?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 
@@ -82,14 +80,14 @@ const Spesial = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     JISF Offline
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="/Offline2025"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 
@@ -103,14 +101,14 @@ const Spesial = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     JISF Online
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="/Online2025"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 

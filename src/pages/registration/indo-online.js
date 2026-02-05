@@ -113,13 +113,6 @@ function IndonesiaOnline() {
         setStatusMessage("Data berhasil dikirim!");
 
         // Ambil data sebelum reset
-        const formData = {
-          namaLengkap: selectedMaxNamaLengkap,
-          projectTitle: selectedMaxProject,
-          category: selectedCategory,
-          categoryPrice: categoryPrice,
-          namasekolah: selectedNamaSekolah,
-        };
 
         form.reset();
         setTimeout(() => {
@@ -151,7 +144,7 @@ function IndonesiaOnline() {
             <h1 className="sub text-sm md:text-lg lg:text-5xl">
               REGISTRATION FORM
             </h1>
-            <h1 className="garis-bawah"></h1>
+            <div className="garis-bawah"></div>
             <br />
             <br />
             <h4>
@@ -212,7 +205,7 @@ function IndonesiaOnline() {
 
             <form name="regist-form">
               <h1 className="text-sm md:text-lg lg:text-5xl">BIODATA</h1>
-              <h1 className="garis-bawah"></h1>
+              <div className="garis-bawah"></div>
               <div className="user-details">
                 <div className="input-box">
                   <label className="form-label" value="Peserta Indonesia">
@@ -347,7 +340,7 @@ function IndonesiaOnline() {
               {/* DATA SEKOLAH START */}
               {/* DATA SEKOLAH START */}
               <h1 className="text-sm md:text-lg lg:text-5xl">SCHOOL DATA</h1>
-              <h1 className="garis-bawah"></h1>
+              <div className="garis-bawah"></div>
               <div className="user-details">
                 <div className="input-box">
                   <label htmlFor="NAMA_SEKOLAH" className="form-label">
@@ -444,7 +437,7 @@ function IndonesiaOnline() {
               <h1 className="text-sm md:text-lg lg:text-5xl">
                 SUPERVISOR DATA
               </h1>
-              <h1 className="garis-bawah"></h1>
+              <div className="garis-bawah"></div>
               <div className="user-details">
                 <div className="input-box">
                   <label for="NAME_SUPERVISOR" className="form-label">
@@ -503,7 +496,7 @@ function IndonesiaOnline() {
                 <h1 className="text-sm md:text-lg lg:text-5xl">
                   DETAIL PROJECT
                 </h1>
-                <h1 className="garis-bawah"></h1>
+                <div className="garis-bawah"></div>
               </div>
               <div className="user-details">
                 <div className="input-box">
@@ -613,7 +606,7 @@ function IndonesiaOnline() {
                 <h1 className="text-sm md:text-lg lg:text-5xl">
                   GENERAL INFORMATION
                 </h1>
-                <h1 className="garis-bawah"></h1>
+                <div className="garis-bawah"></div>
               </div>
               <div className="user-details">
                 <div className="input-box">

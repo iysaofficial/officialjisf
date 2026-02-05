@@ -4,7 +4,7 @@ import {
   internationalOfflineTerms,
   internationalOnlineTerms,
 } from "../../pages/data/terms";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "./registration.css";
 
 
@@ -56,12 +56,14 @@ function HomeInter() {
           </div>
           <div className="link-web mx-auto text-center">
             <a
+              href="#!"
               className="btn btn-custom text-center me-lg-5 "
               onClick={() => handleOpenModal("/inter-online", internationalOnlineTerms)}
             >
               Online Competition{" "}<i className="fa-solid fa-earth-americas"></i>
             </a>
             <a
+              href="#!"
               className="btn btn-custom text-center me-lg-5 "
               onClick={() => handleOpenModal("/inter-offline", internationalOfflineTerms)}
             >

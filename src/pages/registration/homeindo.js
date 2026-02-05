@@ -1,7 +1,7 @@
 import Navigation from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer";
 import { indonesiaOnlineTerms, indonesiaOfflineTerms } from "../../pages/data/terms";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "./registration.css";
 
 
@@ -53,12 +53,14 @@ function HomeIndo() {
           </div>
           <div className="link-web mx-auto text-center">
             <a
+              href="#!"
               className="btn btn-custom text-center me-lg-5 "
               onClick={() => handleOpenModal("/indo-online", indonesiaOnlineTerms)}
             >
               Online Competition{" "}<i className="fa-solid fa-earth-americas"></i>
             </a>
             <a
+              href="#!"
               className="btn btn-custom text-center me-lg-5 "
               onClick={() => handleOpenModal("/indo-offline", indonesiaOfflineTerms)}
             >

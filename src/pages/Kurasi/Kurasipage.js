@@ -1,10 +1,6 @@
 import React from "react";
 import NavBar from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer";
-import img from "../../images/web.svg";
-import img2 from "../../images/app.svg";
-import img3 from "../../images/hosting.svg";
-import img4 from "../../images/consultation.svg";
 
 const Kurasipage = () => {
   return (
@@ -39,15 +35,16 @@ const Kurasipage = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center">
                     Curation 2024
                   </h2>
-                  <a className="font-bold">
+                  <p className="font-bold">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/drive/folders/1IoMBKIY6q-_-gKpZvO5TIWRcO-6K02He?usp=drive_link"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 
@@ -61,15 +58,16 @@ const Kurasipage = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center ">
                     Curation 2025
                   </h2>
-                  <a className="font-bold">
+                  <p className="font-bold">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/drive/folders/1nAytDLkX99BL98wNXtX6q-jzCDi2dlaG?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 

@@ -1,10 +1,6 @@
 import React from "react";
 import NavBar from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer";
-import img from "../../images/web.svg";
-import img2 from "../../images/app.svg";
-import img3 from "../../images/hosting.svg";
-import img4 from "../../images/consultation.svg";
 
 const Offline2024 = () => {
   return (
@@ -39,15 +35,16 @@ const Offline2024 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-green-900  text-center">
                     University
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/file/d/1dgB9ri_4ctVkUIWltoNM9MtVEevhGk0S/view?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 
@@ -61,15 +58,16 @@ const Offline2024 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-green-900 text-center">
                     Senior High School
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/file/d/1I-94YIUc-a3vo8Zf3JISPLnZE99Bok0n/view?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 
@@ -83,15 +81,16 @@ const Offline2024 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     Junior High School
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/file/d/1h1j6Z_sW-wTMZqCM48gQCFZLhzjnZcb9/view?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 
@@ -105,15 +104,16 @@ const Offline2024 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
                     Elementary
                   </h2>
-                  <a className="font-bold text-green-900">
+                  <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
                       href="https://drive.google.com/file/d/1RYaMEbQf_uec03x3UcRxuFxQqpSnStia/view?usp=sharing"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 

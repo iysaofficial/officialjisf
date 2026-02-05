@@ -1,7 +1,4 @@
 import React from "react";
-import kws from "../images/clients/kws.png";
-import geps from "../images/clients/geps.png";
-import protergia from "../images/clients/protergia.png";
 
 const clientImage = {
   height: "10rem",
@@ -13,11 +10,6 @@ const clientImage2 = {
   width: "auto",
   mixBlendMode: "colorBurn",
 };
-const clientImage3 = {
-    height: '20rem',
-    width: 'auto',
-    mixBlendMode: 'colorBurn'
-}
 
 const Clients = () => {
   return (

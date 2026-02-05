@@ -1,10 +1,6 @@
 import React from "react";
 import NavBar from "../../../components/Navbar/NavBar";
 import Footer from "../../../components/Footer";
-import img from "../../../images/web.svg";
-import img2 from "../../../images/app.svg";
-import img3 from "../../../images/hosting.svg";
-import img4 from "../../../images/consultation.svg";
 
 const Berita2025 = () => {
   return (
@@ -39,15 +35,16 @@ const Berita2025 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center">
                   Penelitian kurangi sampah makanan menerima Gold Medal pada JISF 2025
                   </h2>
-                  <a className="font-bold">
+                  <p className="font-bold">
                     
                     <a
                       href="https://megapolitan.antaranews.com/berita/391153/penelitian-kurangi-sampah-makanan-menerima-gold-medal-pada-jisf-2025"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 
@@ -61,14 +58,15 @@ const Berita2025 = () => {
                   <h2 className="font-semibold my-4 text-2xl text-center">
                   MIN 9 Boyong Dua Medali Emas di Kompetisi JISF
                   </h2>
-                  <a className="font-bold">
+                  <p className="font-bold">
                     <a
                       href="https://khazanah.republika.co.id/berita/svffry483/min-9-boyong-dua-medali-emas-di-kompetisi-jisf"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Click Here
                     </a>
-                  </a>
+                  </p>
                 </div>
               </div>
 
