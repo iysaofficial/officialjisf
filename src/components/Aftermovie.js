@@ -23,7 +23,7 @@ const Aftermovie = () => {
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
               <iframe
                 src="https://www.youtube.com/embed/DI6GevLONso?si=f-qedf1E82ht34hf"
-                title="YouTube video player"
+                title="After Movie JISF 2025"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen

@@ -110,7 +110,7 @@ function HomeInter() {
                 </div>
                 <label htmlFor="terms">
                   I have read and agree to the{" "}
-                  <a href="#" onClick={(e) => { e.preventDefault(); handleViewTerms(); }}>
+                  <a href="#!" onClick={(e) => { e.preventDefault(); handleViewTerms(); }}>
                     Terms & Conditions
                   </a>.
                 </label>

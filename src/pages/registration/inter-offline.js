@@ -12,7 +12,7 @@ export default function InternationalOffline() {
   const maxSchoolChars = 500; // batasan maksimal karakter
   const maxProjectChars = 160; // batasan maksimal karakter
   const [selectedCategory, setSelectedCategory] = useState("");
-  const [categoryPrice, setCategoryPrice] = useState("");
+  // const [categoryPrice, setCategoryPrice] = useState("");
   const [statusMessage, setStatusMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -52,7 +52,7 @@ export default function InternationalOffline() {
       case "Jakarta International Science Fair - Offline Competition + Full Package":
         break;
       default:
-        setCategoryPrice("");
+        // setCategoryPrice("");
         break;
     }
   };
