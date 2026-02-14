@@ -13,6 +13,7 @@ function IndonesiaOffline() {
   const maxSchoolChars = 500; // batasan maksimal karakter
   const maxProjectChars = 160; // batasan maksimal karakter
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [categoryPrice, setCategoryPrice] = useState("");
   const [statusMessage, setStatusMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -48,6 +49,7 @@ function IndonesiaOffline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "Jakarta International Science Fair - Offline Competition":
+        setCategoryPrice("RP 3.150.000");
         break;
       default:
         break;
@@ -117,11 +119,11 @@ function IndonesiaOffline() {
         setTimeout(() => {
           navigate(
             `/thankyouinter?namaLengkap=${encodeURIComponent(
-              selectedMaxNamaLengkap
+              selectedMaxNamaLengkap,
             )}
             &projectTitle=${encodeURIComponent(selectedMaxProject)}
             &category=${encodeURIComponent(selectedCategory)}
-            &namasekolah=${encodeURIComponent(selectedNamaSekolah)}`
+            &namasekolah=${encodeURIComponent(selectedNamaSekolah)}`,
           );
         }, 1000);
       } else {
@@ -191,8 +193,8 @@ function IndonesiaOffline() {
                       {isLoading
                         ? "Submitting..."
                         : canClick
-                        ? "Continue"
-                        : `Please wait... ${countdown}`}
+                          ? "Continue"
+                          : `Please wait... ${countdown}`}
                     </button>
                   </div>
                 </div>
@@ -579,6 +581,21 @@ function IndonesiaOffline() {
                   ></textarea>
                   <div className="mt-5" id="form_alerts"></div>
                 </div>
+                {/* Kolom Harga */}
+                <div className="input-box invisible">
+                  <label htmlFor="CATEGORY_PRICE" className="form-label ">
+                    Registration Price
+                  </label>
+                  <input
+                    type="text"
+                    id="CATEGORY_PRICE"
+                    name="CATEGORY_PRICE"
+                    className="form-control"
+                    value={categoryPrice}
+                    readOnly
+                    placeholder="Harga akan muncul berdasarkan kategori yang dipilih"
+                  />
+                </div>
               </div>
               {/* DETAIL PROJECT END */}
               {/* DETAIL PROJECT END */}
@@ -643,7 +660,8 @@ function IndonesiaOffline() {
                 <div className="input-box">
                   <label for="FILE" className="form-label">
                     If you received free registration from a previous event or
-                    school visit activity, please attach documentary evidence.{" "}
+                    school visit activity, please attach documentary
+                    evidence.{" "}
                   </label>
                   <input
                     type="url"
