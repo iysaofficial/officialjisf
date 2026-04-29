@@ -38,11 +38,22 @@ import OnlineUniv2025 from './pages/listwinner2025/OnlineUniv2025';
 import Offline2025 from './pages/listwinner2025/Offline2025';
 import Online2025 from './pages/listwinner2025/Online2025';
 
+import Spesial2026 from './pages/listwinner2026/Spesial2026';
+import OfflineElement2026 from './pages/listwinner2026/OfflineElement2026';
+import OfflineSecond2026 from './pages/listwinner2026/OfflineSecond2026';
+import OfflineUniv2026 from './pages/listwinner2026/OfflineUniv2026';
+import OnlineElement2026 from './pages/listwinner2026/OnlineElement2026';
+import OnlineSecond2026 from './pages/listwinner2026/OnlineSecond2026';
+import OnlineUniv2026 from './pages/listwinner2026/OnlineUniv2026';
+import Offline2026 from './pages/listwinner2026/Offline2026';
+import Online2026 from './pages/listwinner2026/Online2026';
+
 import { useDocTitle } from './components/CustomHook';  
 import ScrollToTop from './components/ScrollToTop';
 import News2024 from './pages/berita/News2024';
 import Berita2024 from './pages/berita/berita2024/Berita2024';
 import Berita2025 from './pages/berita/berita2025/Berita2025';
+import Berita2026 from './pages/berita/berita2026/Berita2026';
 import MediaCoverage from './pages/MediaCoverage';
 
 import HomeRegist from './pages/registration/homeregist';
@@ -108,11 +119,22 @@ function App() {
             <Route path="/SecondaryOnline" element={<OnlineSecond2025/>} />
             <Route path="/UniversitasOnline" element={<OnlineUniv2025/>} />
 
+            <Route path="/Winner2026" element={<Spesial2026 />} />
+            <Route path="/Offline2026" element={<Offline2026 />} />
+            <Route path="/Online2026" element={<Online2026 />} />
+            <Route path="/ElementaryOffline" element={<OfflineElement2026 />} />
+            <Route path="/SecondaryOffline" element={<OfflineSecond2026 />} />
+            <Route path="/UniversitasOffline" element={<OfflineUniv2026/>} />
+            <Route path="/ElementaryOnline" element={<OnlineElement2026/>} />
+            <Route path="/SecondaryOnline" element={<OnlineSecond2026/>} />
+            <Route path="/UniversitasOnline" element={<OnlineUniv2026/>} />
+
             <Route path="/CertificateSupervisor" element={<Certificatesupervisor/>} />
             <Route path="/Mediacoverage" element={<MediaCoverage/>} />
             <Route path="/Berita" element={<News2024/>} />
             <Route path="/News2024" element={<Berita2024/>} />
             <Route path="/News2025" element={<Berita2025/>} />
+            <Route path="/News2026" element={<Berita2026/>} />
             <Route path="/homeregist" element={<HomeRegist/>} />
             <Route path="/homeindo" element={<HomeIndo/>} />
             <Route path="/indo-offline" element={<IndonesiaOffline/>} />
