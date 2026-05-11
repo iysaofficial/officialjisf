@@ -12,7 +12,7 @@ const Offline2026 = () => {
         <section data-aos="zoom-in-down mt-8">
           <div className="my-4 py-4">
             <h2 className="my-2 text-center text-3xl text-green-900 uppercase font-bold">
-              List of 
+              List of Winner
             </h2>
 
             <div className="flex justify-center">
@@ -33,12 +33,12 @@ const Offline2026 = () => {
                     src="./assets/logo/new.jpg"
                   /> */}
                   <h2 className="font-semibold my-4 text-2xl text-green-900  text-center">
-                    Guru
+                    Elementary School
                   </h2>
                   <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
-                      href="https://drive.google.com/file/d/1Xv0QhsuG4jWSBIgLLsMb8pgiycMU_Fux/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1loNpzq-b7Cr-vqpFoAJHqSde-9Tv9BJf/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -55,12 +55,12 @@ const Offline2026 = () => {
                     src="./assets/logo/new.jpg"
                   /> */}
                   <h2 className="font-semibold my-4 text-2xl text-green-900  text-center">
-                    University
+                    Secondary School
                   </h2>
                   <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
-                      href="https://drive.google.com/file/d/1tK2iZJth6AA35symbMYCSVIEyPjfWsY9/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1x_ow8tktI2IdCu0m0AEkSdDgKTNqFlAp/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -78,12 +78,12 @@ const Offline2026 = () => {
                     src="./assets/logo/life.png"
                   /> */}
                   <h2 className="font-semibold my-4 text-2xl text-green-900 text-center">
-                    Senior High School
+                    University
                   </h2>
                   <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
-                      href="https://drive.google.com/file/d/1CkqvUSoWncT5HBdeAmYR2ZrUeJ13Wr1G/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1B7MsVDbqel-Mi29Sdsy8Bgi_WA46Mwel/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -93,52 +93,7 @@ const Offline2026 = () => {
                 </div>
               </div>
 
-              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                <div className="m-2 text-justify text-sm">
-                  {/* <img
-                    alt="card img"
-                    className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                    src="./assets/logo/env.png"
-                  /> */}
-                  <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
-                    Junior High School
-                  </h2>
-                  <p className="font-bold text-green-900">
-                    {/* Lokasi Venue: {" "}   */}
-                    <a
-                      href="https://drive.google.com/file/d/11HHjNLzb7UlvUDHuXZ0ktJtKlNP7erbc/view?usp=sharing"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Click Here
-                    </a>
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                <div className="m-2 text-justify text-sm">
-                  {/* <img
-                    alt="card img"
-                    className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                    src="./assets/logo/env.png"
-                  /> */}
-                  <h2 className="font-semibold my-4 text-2xl text-center text-green-900">
-                    Elementary
-                  </h2>
-                  <p className="font-bold text-green-900">
-                    {/* Lokasi Venue: {" "}   */}
-                    <a
-                      href="https://drive.google.com/file/d/1fP_Nxfnvbs8tMo5wYE_TpsAboQQEl4F0/view?usp=sharing"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Click Here
-                    </a>
-                  </p>
-                </div>
-              </div>
-
+              
               {/* <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                 <div className="m-2 text-justify text-sm">
                   <img
