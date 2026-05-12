@@ -17,13 +17,13 @@ const Aftermovie = () => {
           <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
             <div className="flex">
               <h1 className="font-bold text-center lg:text-left text-green-900 uppercase text-4xl">
-                After Movie 2025
+                After Movie 2026
               </h1>
             </div>
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
               <iframe
-                src="https://www.youtube.com/embed/DI6GevLONso?si=f-qedf1E82ht34hf"
-                title="After Movie JISF 2025"
+                src="https://youtu.be/tL4wsUFsikM?si=F5XYU_lXfJ2BoGCr"
+                title="After Movie JISF 2026"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
