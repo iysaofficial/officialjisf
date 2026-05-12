@@ -53,15 +53,12 @@ const NavLinks = () => {
       >
         Media Coverage
       </a>
-      <a
-        href="https://drive.google.com/drive/folders/1bsQKKYE0B8oEjAzmrCfJxaktjsLNIC2E?usp=sharing"
-        target="_blank"
-        rel="noopener noreferrer"
+      <HashLink
         className="px-4 font-extrabold text-gray-500 hover:text-green-900"
-        smooth
+        to="/Gallery"
       >
         Gallery
-      </a>
+      </HashLink>
       <HashLink
         className="px-4 font-extrabold text-gray-500 hover:text-green-900"
         to="/contact#contact"

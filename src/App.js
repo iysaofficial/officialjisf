@@ -15,6 +15,7 @@ import LoW from './pages/LoW';
 
 // certificate
 import Certificatesupervisor from './pages/certife/Certificatesupervisor';
+import Gallery from './pages/Gallery';
 
 
 // list winner
@@ -130,6 +131,7 @@ function App() {
             <Route path="/UniversitasOnline" element={<OnlineUniv2026/>} />
 
             <Route path="/CertificateSupervisor" element={<Certificatesupervisor/>} />
+            <Route path="/Gallery" element={<Gallery/>} />
             <Route path="/Mediacoverage" element={<MediaCoverage/>} />
             <Route path="/Berita" element={<News2024/>} />
             <Route path="/News2024" element={<Berita2024/>} />

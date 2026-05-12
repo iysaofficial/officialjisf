@@ -23,15 +23,18 @@ const Intro = () => {
             <h3 className="text-3xl  text-green-900 font-bold">About JISF</h3>
             <div>
               <p className="my-3 text-xl text-gray-600 font-semibold">
-                Indonesian Young Scientist Association (IYSA) in collaboration
-                with Office of the Ministry of Religious Affairs of DKI Jakarta Province
-                organised a scientific competition called "Jakarta National
-                Science Fair" for the first time JISF organised in hybrid
-                situation competition (Online and Offline).
+                Indonesian Young Scientist Association (IYSA) in collaboration with i3L
+                University, Jakarta will hold the event namely “Jakarta International Science
+                Fair” for the third time JISF was held in hybrid situation (Online and Offline)
+                competition. The JISF emerges as a prestigious platform dedicated to
+                fostering scientific innovation and collaboration on a global scale. Recognizing
+                the paramount importance of scientific advancements in addressing
+                contemporary challenges, JISF stand as a beacon for scientist researchers,
+                and innovators to converge and share their groundbreaking discoveries.
               </p>
             </div>
 
-            <div>
+            {/* <div>
               <p className="my-3 text-xl text-gray-600 font-semibold">
                 JISF is emerging as a prestigious platform dedicated to
                 fostering scientific innovation and collaboration on a global
@@ -40,7 +43,7 @@ const Intro = () => {
                 for research scientists, and innovators to come together and
                 share their groundbreaking discoveries.
               </p>
-            </div>
+            </div> */}
             {/* <Link to="/contact" className="text-white bg-green-900 hover:bg-green-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
                                 Contact us
                                 <svg className="w-4 h-4 ml-1 group-hover: translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
