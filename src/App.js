@@ -68,6 +68,8 @@ import Thankyouinter from './pages/registration/thankyouinterpage';
 
 import Aftereventpage from './pages/Afterevent/Aftereventpage';
 import Pressrelease2025 from './pages/Afterevent/Pressrelease2025';
+import Pressrelease2024 from './pages/Afterevent/Pressrelease2024';
+import Pressrelease2026 from './pages/Afterevent/Pressrelease2026';
 
 import Report from './pages/Reportjisf/Report';
 import Report2025 from './pages/Reportjisf/Report2025';
@@ -148,6 +150,8 @@ function App() {
 
             <Route path="/Aftereventpage" element={<Aftereventpage/>} />
             <Route path="/Pressrelease2025" element={<Pressrelease2025/>} />
+            <Route path="/Pressrelease2024" element={<Pressrelease2024/>} />
+            <Route path="/Pressrelease2026" element={<Pressrelease2026/>} />
 
             <Route path="/Report" element={<Report/>} />
             <Route path="/Report2025" element={<Report2025/>} />
