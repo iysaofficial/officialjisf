@@ -60,7 +60,7 @@ const Offline2026 = () => {
                   <p className="font-bold text-green-900">
                     {/* Lokasi Venue: {" "}   */}
                     <a
-                      href="https://drive.google.com/file/d/10T71P7GptAVyzyAVK66ISF3Gk9ElOXVh/view?usp=sharing"
+                      href="https://drive.google.com/file/d/16AporbbHJs_J-JmLQ8yEBeA5lCrkxaBa/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
