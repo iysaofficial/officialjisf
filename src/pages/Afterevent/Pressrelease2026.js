@@ -33,7 +33,7 @@ const Pressrelease2026 = () => {
                     src="./assets/logo/new.jpg"
                   /> */}
                   <div class="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                    <iframe title="Press Release 2025" src="https://drive.google.com/file/d/111OXv3ovH8n9rWZrL22eCThCmr3DzgLu/view?usp=sharing"></iframe>
+                    <iframe title="Press Release 2026" src="https://drive.google.com/file/d/111OXv3ovH8n9rWZrL22eCThCmr3DzgLu/view?usp=sharing"></iframe>
                   </div>
                   <h2 className="font-semibold my-4 text-2xl text-center">
                     Press Release 2026
