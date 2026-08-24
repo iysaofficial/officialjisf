@@ -30,7 +30,7 @@ const Berita2026 = () => {
                   <img
                     alt="card img"
                     className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                    src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/jisf_1_rxct9f.jpg?updatedAt=1781963577588"
+                    src="./assets/logo/jisf_1_rxct9f.jpg"
                   />
                   <h2 className="font-semibold my-4 text-2xl text-center">
                   MIN 14 Al-Azhar Asy-Syarif Borong Prestasi di JISF 2026, Raih Dua Emas dan Satu Perak
@@ -53,7 +53,7 @@ const Berita2026 = () => {
                   <img
                     alt="card img"
                     className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                    src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/jisf_2_nzqong.jpg?updatedAt=1781963578894"
+                    src="./assets/logo/jisf_2_nzqong.jpg"
                   />
                   <h2 className="font-semibold my-4 text-2xl text-center">
                   Siswa MIN 9 Jakarta Selatan Raih Emas dan Perak di JISF 2026, Bukti Semangat Riset Sejak Dini
@@ -75,7 +75,7 @@ const Berita2026 = () => {
                   <img
                     alt="card img"
                     className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-                    src="https://ik.imagekit.io/iysaimg/ASSET%20IYSA/jisf_3_jtbued.png?updatedAt=1781963579481"
+                    src="./assets/logo/jisf_3_jtbued.png"
                   />
                   <h2 className="font-semibold my-4 text-2xl text-center">
                   MAN 6 Jakarta Tunjukkan Daya Saing Global di Ajang JISF 2026
