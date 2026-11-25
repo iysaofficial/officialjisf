@@ -1,7 +1,13 @@
 import React from "react";
 import NavBar from "../components/Navbar/NavBar";
+import { Link } from "react-router-dom";
+import { usePendaftaran } from "../lib/pendaftaran";
 
 const Hero = () => {
+  // Tombol hero mengikuti dasbor IYSA: daftar hanya saat togel Pendaftaran edisi
+  // menyala, Guide Book + S&K hanya bila guidebook sudah diterbitkan.
+  const { memuat, identitas, keadaan, guidebook } = usePendaftaran();
+  const tahun = identitas?.tahun ?? "";
   return (
     <>
       <div className="hero" id="hero">
@@ -26,16 +32,13 @@ const Hero = () => {
                 Jakarta International Science
               </h1>
               <h1 className="mb-5 mt-1 md:text-5xl text-3xl font-bold text-green-900">
-                {/* We build digital solutions to help businesses scale */}
-                Fair 2026
+                Fair{tahun ? ` ${tahun}` : ""}
               </h1>
               {/* <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">We are a team of highly motivated and skilled developers dedicated to delivering only the best software.</div> */}
               <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
-                <button
-                  type="button"
-                  className="text-white bg-green-900 hover:bg-green-700 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
-                >
-                  Closed Regist
+                {memuat ? null : keadaan === "buka" ? (
+                  <Link to="/homeregist" className="text-white bg-green-900 hover:bg-green-700 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
+                    Register Now
                   <svg
                     className="w-4 h-4 ml-1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +51,22 @@ const Hero = () => {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                </button>
+                  </Link>
+                ) : (
+                  <button type="button" disabled className="text-white bg-green-900 hover:bg-green-700 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 cursor-default">
+                    Coming Soon{tahun ? ` ${tahun}` : ""}
+                  </button>
+                )}
+                {guidebook && (
+                  <>
+                    <a href={guidebook.url} target="_blank" rel="noopener noreferrer" data-iysa-panduan="JISF" className="text-white bg-green-900 hover:bg-green-700 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
+                      Guide Book
+                    </a>
+                    <a href={guidebook.url} target="_blank" rel="noopener noreferrer" data-iysa-panduan="JISF" data-iysa-panduan-jenis="tnc" className="text-white bg-green-900 hover:bg-green-700 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
+                      Terms and Conditions
+                    </a>
+                  </>
+                )}
                 {/* <a
                   href="https://drive.google.com/file/d/1y604pWO2S9w76utVS93h9qIkQZBqXAw5/view?usp=sharing"
                   target="_blank"

@@ -6,6 +6,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  Navigate
 } from 'react-router-dom';
 // All pages
 import Home from './pages/Home';
@@ -58,12 +59,6 @@ import Berita2026 from './pages/berita/berita2026/Berita2026';
 import MediaCoverage from './pages/MediaCoverage';
 
 import HomeRegist from './pages/registration/homeregist';
-import HomeIndo from './pages/registration/homeindo';
-import IndonesiaOffline from './pages/registration/indo-offline';
-import IndonesiaOnline from './pages/registration/indo-online';
-import HomeInter from './pages/registration/homeinter';
-import InternationalOffline from './pages/registration/inter-offline';
-import InternationalOnline from './pages/registration/inter-online';
 import Thankyouinter from './pages/registration/thankyouinterpage';
 
 import Aftereventpage from './pages/Afterevent/Aftereventpage';
@@ -140,12 +135,13 @@ function App() {
             <Route path="/News2025" element={<Berita2025/>} />
             <Route path="/News2026" element={<Berita2026/>} />
             <Route path="/homeregist" element={<HomeRegist/>} />
-            <Route path="/homeindo" element={<HomeIndo/>} />
-            <Route path="/indo-offline" element={<IndonesiaOffline/>} />
-            <Route path="/indo-online" element={<IndonesiaOnline/>} />
-            <Route path="/homeinter" element={<HomeInter/>} />
-            <Route path="/inter-offline" element={<InternationalOffline/>} />
-            <Route path="/inter-online" element={<InternationalOnline/>} />
+            {/* Formulir Google Apps Script lama → formulir dasbor IYSA (daftar.js). */}
+            <Route path="/homeindo" element={<Navigate to="/homeregist" replace />} />
+            <Route path="/indo-offline" element={<Navigate to="/homeregist" replace />} />
+            <Route path="/indo-online" element={<Navigate to="/homeregist" replace />} />
+            <Route path="/homeinter" element={<Navigate to="/homeregist" replace />} />
+            <Route path="/inter-offline" element={<Navigate to="/homeregist" replace />} />
+            <Route path="/inter-online" element={<Navigate to="/homeregist" replace />} />
             <Route path="/thankyouinter" element={<Thankyouinter/>} />
 
             <Route path="/Aftereventpage" element={<Aftereventpage/>} />

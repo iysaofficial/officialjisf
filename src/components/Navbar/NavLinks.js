@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
+import { usePendaftaran } from "../../lib/pendaftaran";
 
 const NavLinks = () => {
+  // Buku panduan edisi berjalan + menu pendaftaran mengikuti dasbor IYSA.
+  const { identitas, keadaan, guidebook } = usePendaftaran();
   const [isGuideBookOpen, setIsGuideBookOpen] = useState(false);
 
   const toggleGuideBook = () => {
@@ -72,6 +75,15 @@ const NavLinks = () => {
         Contact
       </HashLink>
 
+      {keadaan === "buka" && (
+        <HashLink
+          className="px-4 font-extrabold text-gray-500 hover:text-green-900"
+          to="/homeregist"
+        >
+          Registration
+        </HashLink>
+      )}
+
       <div className="relative inline-block text-left lg:mt-0">
         <button
           onClick={toggleGuideBook}
@@ -86,7 +98,13 @@ const NavLinks = () => {
         {isGuideBookOpen && (
           <div className="lg:absolute lg:right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
             <div className="py-1 flex flex-col" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-              <a href="https://drive.google.com/file/d/1y604pWO2S9w76utVS93h9qIkQZBqXAw5/view?usp=sharing" className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-900 font-bold" role="menuitem">2026</a>
+              {guidebook && (
+                <>
+                  <a href={guidebook.url} target="_blank" rel="noopener noreferrer" data-iysa-panduan="JISF" className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-900 font-bold" role="menuitem">{identitas?.tahun ?? "Guide Book"}</a>
+                  <a href={guidebook.url} target="_blank" rel="noopener noreferrer" data-iysa-panduan="JISF" data-iysa-panduan-jenis="tnc" className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-900 font-bold" role="menuitem">Terms &amp; Conditions</a>
+                </>
+              )}
+              {identitas?.tahun !== "2026" && <a href="https://drive.google.com/file/d/1y604pWO2S9w76utVS93h9qIkQZBqXAw5/view?usp=sharing" className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-900 font-bold" role="menuitem">2026</a>}
               <a href="https://drive.google.com/file/d/1B1kHwIL0TRCCsvBe006kdD0scKYKyM0p/view?usp=sharing" className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-900 font-bold" role="menuitem">2025</a>
               <a href="https://drive.google.com/file/d/1Tao9l2dB_1M0lEvarYnhd5-lRRUGrmof/view?usp=sharing" className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-green-900 font-bold" role="menuitem">2024</a>
             </div>
